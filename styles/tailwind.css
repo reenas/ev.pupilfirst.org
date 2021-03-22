@@ -112,17 +112,6 @@ h4 {
   left: 4px;
 }
 
-.testimonial-blockquote {
-  @apply relative;
-}
-
-.testimonial-blockquote::before {
-  @apply absolute h-6 top-0 left-0 w-6 ml-4;
-  content: "";
-  background-repeat: no-repeat;
-  background-image: url(".././public/testimonial/quote-icon-green.svg");
-}
-
 @screen lg {
   .testimonial-blockquote::before {
     @apply w-11 ml-0;

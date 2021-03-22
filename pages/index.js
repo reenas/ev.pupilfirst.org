@@ -1,30 +1,5 @@
 import Head from "next/head";
 
-function ApplyToCourse() {
-  return (
-    <div className="flex">
-      <a
-        className="block w-full md:w-auto text-center px-10 py-4 bg-gray-900 text-primary-500 border border-primary-500 font-bold rounded shadow-lg hover:shadow-xl hover:bg-primary-500 hover:text-gray-900 transition duration-250 ease-in-out"
-        href="https://apply.pupilfirst.org"
-      >
-        Apply for Fellowship
-      </a>
-    </div>
-  );
-}
-
-
-function HeroCharacter({ caption, imgSrc }) {
-  return (
-    <div className="flex-shrink-0">
-      <img src={imgSrc} alt={caption} className={"bg-contain w-40 lg:w-auto mx-auto"} />
-      <p className="text-3xl lg:text-4xl text-black border-black mb-4">
-        {caption}
-      </p>
-    </div>
-  )
-}
-
 function ImageWithDescription({ name, caption, role, imgSrc }) {
   return (
     <div>
@@ -40,35 +15,22 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
   )
 }
 
-function StatsWithTitleAndDescription({ title, description }) {
-  return (
-    <div className="text-center">
-      <div className="font-semibold text-2xl">
-        {title}
-      </div>
-      <div className="text-sm">
-        {description}
-      </div>
-    </div>
-  )
-}
-
 export default function Home() {
   return (
     <div className={""}>
       <Head>
-        <title>CoronaSafe Programming Course</title>
+        <title>Introduction to Electric Vehicles(EV101)</title>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
-        <meta property="og:title" content="CoronaSafe Engineering Fellowship" />
-        <meta property="og:description" content="National programme to identify the top 30 indian students in software engineering for an industry-led training to become full-stack developers and volunteer as the national engineering leadership cadre for public service." />
+        <meta property="og:title" content="Introduction to Electric Vehicles (EV101)" />
+        <meta property="og:description" content="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
         <meta property="og:image" content="coronasafe-engineering-fellowship.png" />
-        <meta property="og:url" content="https://fullstack.pupilfirst.org/" />
+        <meta property="og:url" content="https://ev.pupilfirst.org/" />
         <meta name="twitter:card" content="coronasafe-engineering-fellowship.png" />
-        <meta property="og:site_name" content="Coronasafe Engineering Fellowship" />
-        <meta name="National programme to identify the top 30 indian students in software engineering for an industry-led training to become full-stack developers and volunteer as the national engineering leadership cadre for public service." />
+        <meta property="og:site_name" content="Introduction to Electric Vehicles (EV101)" />
+        <meta name="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
 
         <script async src="https://www.googletagmanager.com/gtag/js?id=G-11P76BRB6N"></script>
         <script
@@ -97,10 +59,17 @@ export default function Home() {
                   <span>Electric Vehicles<span className="text-sm lg:text-2xl ml-2">(EV101)</span></span>
                 </h1>
               <p className="max-w-2xl text-sm md:text-base lg:text-xl pt-2 lg:pt-4 lg:pr-12">Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and  build a career in Electric Vehicles.</p>
-              <div className="inline-block rounded bg-secondary-900 py-1 px-3 mt-4 ">
-                <p className="font-medium text-sm text-secondary-300">
-                  Upto Top 100 students who qualify for the program get a 100% scholarship!
-                </p>
+              <div className="inline-block rounded bg-secondary-900 bg-opacity-50 py-1 px-3 mt-4 ">
+                <div className="flex sm:items-center space-x-2 font-medium text-sm text-secondary-300">
+                  <span className="block pt-1 sm:pt-0 flex-shrink-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+                      <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z"/>
+                    </svg>
+                  </span>
+                  <p>
+                    Upto Top 100 students who qualify for the program get a 100% scholarship!
+                  </p>
+                </div>
               </div>
               <div className="pt-4 md:pt-8">
                 <a
@@ -273,13 +242,6 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-gray-900 relative overflow-hidden">
-          {/* <div className="hidden sm:block sm:absolute sm:inset-y-0 sm:h-full sm:w-full" aria-hidden="true">
-            <div className="relative h-full max-w-7xl mx-auto">
-              <div className="absolute left-0 top-0 h-80 w-80 z-0">
-                <svg xmlns="http://www.w3.org/2000/svg" width="293" height="211"><defs><linearGradient x1="2.59498185%" y1="32.8028691%" x2="100%" y2="68.8564246%" id="A"><stop stop-color="#13cef8" offset="0%"/><stop stop-color="#5afba6" offset="100%"/></linearGradient><linearGradient x1="2.59498185%" y1="39.1009916%" x2="100%" y2="61.9506173%" id="B"><stop stop-color="#13cef8" offset="0%"/><stop stop-color="#5afba6" offset="100%"/></linearGradient><linearGradient x1="2.59498185%" y1="32.5250972%" x2="100%" y2="69.1609977%" id="C"><stop stop-color="#13cef8" offset="0%"/><stop stop-color="#5afba6" offset="100%"/></linearGradient><linearGradient x1="2.59498185%" y1="40.1703672%" x2="100%" y2="60.7780612%" id="D"><stop stop-color="#13cef8" offset="0%"/><stop stop-color="#5afba6" offset="100%"/></linearGradient></defs><g fill="none" fill-rule="evenodd" fill-opacity=".6"><rect fill="url(#A)" width="241" height="148" rx="10"/><path fill="url(#B)" d="M33 148l22.785 22L78 148z"/><g transform="translate(146 107)"><rect fill="url(#C)" width="147" height="91" rx="10"/><path fill="url(#D)" d="M20 91l14.177 13L48 91z"/></g></g></svg>
-              </div>
-            </div>
-          </div> */}
           <div className="max-w-6xl 2xl:max-w-7xl mx-auto relative z-10">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="max-w-4xl mx-auto text-white pt-10 lg:pt-20">
@@ -311,32 +273,32 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="grid grid-cols-12 gap-6 mt-10">
-                  <div className="relative col-span-2 rounded-lg border border-secondary-400">
+                <div className="grid grid-cols-12 gap-3 lg:gap-6 mt-6 lg:mt-10">
+                  <div className="relative col-span-2 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                     <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-secondary-400 items-center justify-center absolute inset-0 transform -rotate-90">EV 101</p>
                   </div>
-                  <div className="col-span-10 grid gap-y-8">
+                  <div className="col-span-10 grid gap-y-4 md:gap-y-8">
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">1</p>
-                      <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                         <p className="text-sm md:text-lg font-semibold text-secondary-400">Electric Vehicle history &amp; foundations.</p>
                       </div>
                     </div>
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">2</p>
-                      <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                         <p className="text-sm md:text-lg font-semibold text-secondary-400">Understand the basic components of an EV.</p>
                       </div>
                     </div>
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">3</p>
-                      <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                         <p className="text-sm md:text-lg font-semibold text-secondary-400">Mathematically modelling an EV.</p>
                       </div>
                     </div>
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">4</p>
-                      <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                         <p className="text-sm md:text-lg font-semibold text-secondary-400">Building your own EV conversion from scratch.</p>
                       </div>
                     </div>
@@ -357,17 +319,18 @@ export default function Home() {
                   <p className="text-white text-sm md:text-base lg:text-lg">This course is designed as a primer course for an intermediate course and advanced course that will pave the pathway a student can take to become a part of the Electric vehicle industry.</p>
                 </div>
                 <div className="grid md:grid-cols-3 gap-4 mt-8">
-                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-secondary-400 rounded-lg p-5">
-                    <p className="text-secondary-400 text-2xl font-bold">EV 101</p>
-                    <p className="text-white leading-snug mt-1">Beginner - Introduction to Electric Vehicles</p>
+                  <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 border border-secondary-400 rounded-lg p-3 md:p-5">
+                    <span className="block absolute z-10 px-2 py-1 text-xs leading-snug font-semibold text-gray-900 rounded -top-3 right-5 md:right-auto md:left-5 bg-gradient-to-r from-secondary-400 to-primary-400">This Course</span>
+                    <p className="text-secondary-400 text-xl md:text-2xl font-bold">EV 101</p>
+                    <p className="text-sm md:text-base text-white leading-snug mt-1">Beginner - Introduction to Electric Vehicles</p>
                   </div>
-                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-primary-400 rounded-lg p-5">
-                    <p className="text-primary-400 text-2xl font-bold">EV 201</p>
-                    <p className="text-white leading-snug mt-1">Beginner - Introduction to Electric Vehicles</p>
+                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-primary-400 rounded-lg p-3 md:p-5">
+                    <p className="text-primary-400 text-xl md:text-2xl font-bold">EV 201</p>
+                    <p className="text-sm md:text-base text-white leading-snug mt-1">Intermediate course on Electric Vehicles </p>
                   </div>
-                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-tertiary-400 rounded-lg p-5">
-                    <p className="text-tertiary-400 text-2xl font-bold">EV 301</p>
-                    <p className="text-white leading-snug mt-1">Beginner - Introduction to Electric Vehicles</p>
+                  <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-tertiary-400 rounded-lg p-3 md:p-5">
+                    <p className="text-tertiary-400 text-xl md:text-2xl font-bold">EV 301</p>
+                    <p className="text-sm md:text-base text-white leading-snug mt-1">Advanced course on Electric Vehicles</p>
                   </div>
                 </div>
               </div>
@@ -380,34 +343,44 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-8">
-                <div className="flex space-x-4">
+                <div className="flex space-x-2 lg:space-x-4">
                   <div className="flex flex-col">
                     <div className="flex h-2/5">
-                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg border border-secondary-400">
+                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                         <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-secondary-400 items-center justify-center absolute inset-0 transform -rotate-90">EV 101</p>
                       </div>
                     </div>
                     <div className="h-10"></div>
                     <div className="flex h-3/5">
-                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg border border-primary-400">
+                      <div className="relative grid place-items-center p-3 md:px-12 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                         <p className="flex whitespace-nowrap text-base lg:text-2xl font-bold text-primary-400 items-center justify-center absolute inset-0 transform -rotate-90">EV 201</p>
                       </div>
                     </div>
                   </div>
                   <div className="block relative w-12 md:w-24 bg-gray-800 ">
-                    <div className="flex whitespace-nowrap text-base items-center sticky top-0">
-                      <div className="flex w-full items-end h-24">
-                        <span className="block text-xs text-secondary-400 font-semibold absolute right-0 transform -rotate-90 pr-3">Skills</span>
-                      </div>
-                    </div>
-                    <div className="flex items-center justify-center absolute inset-0 h-full">
+                    <div className="flex items-center justify-center absolute z-0 inset-0 h-full">
                       <svg className="" width="2" height="100%" xmlns="http://www.w3.org/2000/svg">
-                          <line className="path" x1="0" y1="0" x2="0" y2="100%" stroke="white"/>
+                        <line className="path" x1="0" y1="0" x2="0" y2="100%" stroke="white"/>
                       </svg>
                     </div>
+                    <div className="flex whitespace-nowrap text-base items-center sticky top-0 z-20">
+                      <div className="flex relative w-full justify-end items-end h-20 md:h-24">
+                        <div>
+                          <div className="relative">
+                            <div className="flex text-xs text-secondary-200 font-semibold absolute z-20 right-0 transform -rotate-90 mt-14 md:mt-16">
+                              <span className="block md:pb-2 md:pr-2">Skills</span>
+                            </div>
+                          </div>
+                          <div className="flex justify-end w-full">
+                            <img className="object-contain relative w-8 md:w-12" src="course-path/ev-car-sticky.png" />
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                     <div className="absolute inset-0">
                       <div className="w-4 h-2/5"></div>
-                      <div className="grid grid-cols-7 gap-1 md:gap-2 h-10 w-12 md:w-24 md:h-10 -mt-4">
+                      <div className="relative z-10 grid grid-cols-7 gap-1 md:gap-2 h-10 w-12 md:w-24 md:h-10 -mt-4">
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
                         <div className="bg-gray-200"></div>
@@ -423,25 +396,25 @@ export default function Home() {
                     <div className="flex flex-col h-2/5 space-y-4 pb-5">
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">1</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-lg font-semibold text-secondary-400">Electric Vehicle history &amp; foundations.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">2</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-lg font-semibold text-secondary-400">Understand the basic components of an EV.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">3</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-lg font-semibold text-secondary-400">Mathematically modelling an EV.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">4</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-secondary-900 border border-secondary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                           <p className="text-sm md:text-lg font-semibold text-secondary-400">Building your own EV conversion from scratch.</p>
                         </div>
                       </div>
@@ -450,37 +423,37 @@ export default function Home() {
                     <div className="flex flex-col h-3/5 space-y-4 pt-5">
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">1</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-primary-900 border border-primary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-lg font-semibold text-primary-400">Choosing suitable drive schemes.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">2</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-primary-900 border border-primary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-lg font-semibold text-primary-400">Choosing proper energy storage systems.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">3</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-primary-900 border border-primary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-lg font-semibold text-primary-400">Identify communication protocols.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">4</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-primary-900 border border-primary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-lg font-semibold text-primary-400">Develop an electric propulsion unit.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">5</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-primary-900 border border-primary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-lg font-semibold text-primary-400">Analyze different power converter topologies.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">6</p>
-                        <div className="flex-1 px-4 md:px-8 py-4 md:py-6 rounded-lg bg-primary-900 border border-primary-400">
+                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                           <p className="text-sm md:text-lg font-semibold text-primary-400">Design a EV system, component or process within constraints.</p>
                         </div>
                       </div>
@@ -587,7 +560,7 @@ export default function Home() {
                   <p className="text-sm md:text-base lg:text-lg">The government's Automotive Mission Plan 2026 evaluates to create an additional 65 million jobs in the auto sector.</p>
                 </div>
                 <div className="pt-10 lg:pt-16">
-                  <h4 className="text-primary-500 text-xl lg:text-3xl font-bold">Questions?</h4>
+                  <h4 className="text-primary-400 text-xl lg:text-3xl font-bold">Questions?</h4>
                   <p className="text-white pt-2">Email us at
                     <a href="mailto:ev@pupilfirst.org" className={"text-primary-400 underline pl-2 tracking-wide font-medium"}>ev@pupilfirst.org</a>
                   </p>
