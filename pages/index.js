@@ -121,7 +121,7 @@ export default function Home() {
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">Who is this for?</h3>
-                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">Students who are at least 18 years old and no older than 25 years old pursuing engineering undergraduate degree in India</p>
+                      <p className="ml-8 pt-1 text-sm lg:text-lg text-white">Students who are at least 18 years old and no older than 25 years old and pursuing engineering undergraduate degree at an higher education institution in India.</p>
                     </div>
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">When?</h3>
@@ -459,12 +459,14 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="hidden md:flex flex-col items-center justify-between">
-                    <p className="text-xs text-white">Not eligible for <br/>jobs in the domain</p>
-                    <svg className="" width="2" height="100%" xmlns="http://www.w3.org/2000/svg">
+                  <div className="relative hidden md:flex w-24 flex-col items-center justify-between">
+                    <p className="text-xs font-medium text-white">Not eligible for jobs in the domain</p>
+                    <p className="flex text-xs text-gray-200 pt-2 items-center justify-center">The competency based curriculum enables learners to pick up competencies for industry skills</p>
+                    <svg className="pt-4" width="2" height="100%" xmlns="http://www.w3.org/2000/svg">
                       <line className="path" x1="0" y1="0" x2="0" y2="100%" stroke="#474D5C"/>
                     </svg>
-                    <p className="text-xs text-white">Industry grade <br/>salary</p>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="text-gray-600"><polyline points="6 9 12 15 18 9"></polyline></svg>
+                    <p className="text-xs font-medium text-white">Industry grade <br/>salary</p>
                   </div>
                 </div>
               </div>
