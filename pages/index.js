@@ -52,12 +52,12 @@ export default function Home() {
               <img className="hidden w-20 md:w-24" src="logos/aicte-logo.png" />
             </div>
           </header>
-          <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto text-white pb-10 md:pb-16 px-4 xl:px-0">
+          <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto text-white pb-2 md:pb-16 px-4 xl:px-0">
             <div className="w-full md:w-7/12 flex-shrink-0 relative z-10">
-              <h1 className="hero__title-gradient text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl font-bold lg:pt-8">
-                  <span className="font-light block">Introduction to </span>
-                  <span>Electric Vehicles<span className="text-sm lg:text-2xl ml-2">(EV101)</span></span>
-                </h1>
+              <h1 className="hero__title-gradient text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl lg:pt-8 font-light">
+                Introduction to <br/>
+                <span className="font-bold">Electric Vehicles<span className="text-sm lg:text-2xl ml-2">(EV101)</span></span>
+              </h1>
               <p className="max-w-2xl text-sm md:text-base lg:text-xl pt-2 lg:pt-4 lg:pr-12">Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and  build a career in Electric Vehicles.</p>
               <div className="inline-block rounded bg-secondary-900 bg-opacity-50 py-1 px-3 mt-4 ">
                 <div className="flex sm:items-center space-x-2 font-medium text-sm text-secondary-300">
@@ -78,7 +78,7 @@ export default function Home() {
               </div>
             </div>
             <div className="md:5/12 hero__image-container flex z-0 pt-12 lg:pt-16">
-              <img className="object-contain" src="hero/ev-open-program-hero-image.png" alt="Introduction to Electric Vehicles (EV101)" />
+              <img className="object-contain w-full h-full relative" src="hero/ev-open-program-hero-image.png" alt="Introduction to Electric Vehicles (EV101)" />
             </div>
           </div>
         </section>
@@ -280,26 +280,26 @@ export default function Home() {
                   <div className="col-span-10 grid gap-y-4 md:gap-y-8">
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">1</p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-lg font-semibold text-secondary-400">Electric Vehicle history &amp; foundations.</p>
+                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                        <p className="text-sm md:text-base font-semibold text-secondary-400">Electric Vehicle history &amp; foundations.</p>
                       </div>
                     </div>
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">2</p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-lg font-semibold text-secondary-400">Understand the basic components of an EV.</p>
+                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                        <p className="text-sm md:text-base font-semibold text-secondary-400">Understand the basic components of an EV.</p>
                       </div>
                     </div>
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">3</p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-lg font-semibold text-secondary-400">Mathematically modelling an EV.</p>
+                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                        <p className="text-sm md:text-base font-semibold text-secondary-400">Mathematically modelling an EV.</p>
                       </div>
                     </div>
                     <div className="col-span-10 flex">
                       <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">4</p>
-                      <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                        <p className="text-sm md:text-lg font-semibold text-secondary-400">Building your own EV conversion from scratch.</p>
+                      <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                        <p className="text-sm md:text-base font-semibold text-secondary-400">Building your own EV conversion from scratch.</p>
                       </div>
                     </div>
                   </div>
@@ -372,7 +372,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="flex justify-end w-full">
-                            <img className="object-contain relative w-8 md:w-12" src="course-path/ev-car-sticky.png" />
+                            <img className="object-contain relative h-full w-8 md:w-12" src="course-path/ev-car-sticky.png" />
                           </div>
                         </div>
                       </div>
@@ -396,26 +396,26 @@ export default function Home() {
                     <div className="flex flex-col h-2/5 space-y-4 pb-5">
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">1</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                          <p className="text-sm md:text-lg font-semibold text-secondary-400">Electric Vehicle history &amp; foundations.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                          <p className="text-sm md:text-base font-semibold text-secondary-400">Electric Vehicle history &amp; foundations.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">2</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                          <p className="text-sm md:text-lg font-semibold text-secondary-400">Understand the basic components of an EV.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                          <p className="text-sm md:text-base font-semibold text-secondary-400">Understand the basic components of an EV.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">3</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                          <p className="text-sm md:text-lg font-semibold text-secondary-400">Mathematically modelling an EV.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                          <p className="text-sm md:text-base font-semibold text-secondary-400">Mathematically modelling an EV.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">4</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
-                          <p className="text-sm md:text-lg font-semibold text-secondary-400">Building your own EV conversion from scratch.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                          <p className="text-sm md:text-base font-semibold text-secondary-400">Building your own EV conversion from scratch.</p>
                         </div>
                       </div>
                     </div>
@@ -423,41 +423,48 @@ export default function Home() {
                     <div className="flex flex-col h-3/5 space-y-4 pt-5">
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">1</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-lg font-semibold text-primary-400">Choosing suitable drive schemes.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">Choosing suitable drive schemes.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">2</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-lg font-semibold text-primary-400">Choosing proper energy storage systems.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">Choosing proper energy storage systems.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">3</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-lg font-semibold text-primary-400">Identify communication protocols.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">Identify communication protocols.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">4</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-lg font-semibold text-primary-400">Develop an electric propulsion unit.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">Develop an electric propulsion unit.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">5</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-lg font-semibold text-primary-400">Analyze different power converter topologies.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">Analyze different power converter topologies.</p>
                         </div>
                       </div>
                       <div className="flex flex-1">
                         <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">6</p>
-                        <div className="flex-1 p-3 md:p-4 lg:px-8 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
-                          <p className="text-sm md:text-lg font-semibold text-primary-400">Design a EV system, component or process within constraints.</p>
+                        <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                          <p className="text-sm md:text-base font-semibold text-primary-400">Design a EV system, component or process within constraints.</p>
                         </div>
                       </div>
                     </div>
+                  </div>
+                  <div className="hidden md:flex flex-col items-center justify-between">
+                    <p className="text-xs text-white">Not eligible for <br/>jobs in the domain</p>
+                    <svg className="" width="2" height="100%" xmlns="http://www.w3.org/2000/svg">
+                      <line className="path" x1="0" y1="0" x2="0" y2="100%" stroke="#474D5C"/>
+                    </svg>
+                    <p className="text-xs text-white">Industry grade <br/>salary</p>
                   </div>
                 </div>
               </div>
