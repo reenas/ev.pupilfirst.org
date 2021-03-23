@@ -26,9 +26,10 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
         <meta property="og:title" content="Introduction to Electric Vehicles (EV101)" />
         <meta property="og:description" content="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
-        <meta property="og:image" content="coronasafe-engineering-fellowship.png" />
+        <meta name="theme-color" content="#21252E" />
+        <meta property="og:image" content="introduction-to-electric-vehicles-EV101.png" />
         <meta property="og:url" content="https://ev.pupilfirst.org/" />
-        <meta name="twitter:card" content="coronasafe-engineering-fellowship.png" />
+        <meta name="twitter:card" content="introduction-to-electric-vehicles-EV101.png" />
         <meta property="og:site_name" content="Introduction to Electric Vehicles (EV101)" />
         <meta name="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
 
@@ -162,7 +163,7 @@ export default function Home() {
                         <p className="text-xs mt-4 text-gray-400">Important Dates</p>
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Mar 10, 2020</p>
+                            <p className="col-span-2 text-primary-400">Mar 10, 2021</p>
                             <p className="col-span-5 text-white">- Application Opens</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
@@ -528,28 +529,28 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden divide-y divide-gray-700 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-primary-400 lg:text-right">March 10, 2020</p>
-                    <p className="col-span-9 ml-4 md:ml-8 text-gray-200">- Application Opens</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">March 10, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">- Application Opens</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-primary-400 lg:text-right">March 21, 2021</p>
-                    <p className="col-span-9 ml-4 md:ml-8 text-gray-200">- Applications window ends</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">March 21, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">- Applications window ends</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-primary-400 lg:text-right">March 26, 2021</p>
-                    <p className="col-span-9 ml-4 md:ml-8 text-gray-200">- Announcement of selected students </p>
+                    <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">March 26, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">- Announcement of selected students </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-primary-400 lg:text-right">April 02, 2021</p>
-                    <p className="col-span-9 ml-4 md:ml-8 text-white">- Program Begins</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 02, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">- Program Begins</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-primary-400 lg:text-right">April 23, 2021</p>
-                    <p className="col-span-9 ml-4 md:ml-8 text-white">- Program Ends</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 23, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">- Program Ends</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-primary-400 lg:text-right">April 26, 2021</p>
-                    <p className="col-span-9 ml-4 md:ml-8 text-white">- Course Conclusion</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 26, 2021</p>
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">- Course Conclusion</p>
                   </div>
                 </div>
               </div>
