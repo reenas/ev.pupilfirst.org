@@ -21,7 +21,7 @@ export default function Home() {
       <Head>
         <title>Electric Vehicles Open Program</title>
         <meta name="description" content="Electric Vehicles Open Program is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles."></meta>
-        <meta name="keywords" content="Electric mobility ecosystem leader in India, Electric Vehicles, EV, Career in Electric Vehicles"></meta>
+        <meta name="keywords" content="Electric Vehicles, EV, Career in Electric Vehicles"></meta>
         <meta name="author" content="Pupilfirst.org"></meta>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
