@@ -6,7 +6,7 @@ function ImageWithDescription({ name, caption, role, imgSrc }) {
       <div className="rounded-lg overflow-hidden border-4 border-secondary-500 w-5/6 md:w-auto ">
         <img src={imgSrc} alt={caption} className="block w-full object-cover md:object-contain" />
       </div>
-      <h4 className={"text-lg text-primary-400 pt-2"}>{name}</h4>
+      <p className={"text-lg font-semibold text-primary-400 pt-2"}>{name}</p>
       <p className={"text-sm text-gray-300 leading-tight pt-1"}>
         {caption}
       </p>
@@ -19,7 +19,12 @@ export default function Home() {
   return (
     <div className={""}>
       <Head>
-        <title>Introduction to Electric Vehicles(EV101)</title>
+        <title>Electric Vehicles Open Program</title>
+        <meta name="description" content="Electric Vehicles Open Program is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles."></meta>
+        <meta name="keywords" content="Electric mobility ecosystem leader in India, Electric Vehicles, EV, Career in Electric Vehicles"></meta>
+        <meta name="author" content="Pupilfirst.org"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="preconnect" href="https://fonts.gstatic.com"/>
@@ -49,17 +54,22 @@ export default function Home() {
         <section className="hero__bg-pattern bg-gray-900 overflow-hidden">
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
             <div className="flex justify-between items-center">
-              <img className="block w-36 md:w-44" src="logos/pupilfirst-logo.svg" />
-              <img className="hidden w-20 md:w-24" src="logos/aicte-logo.png" />
+              <img className="block w-36 md:w-44" src="logos/pupilfirst-logo.svg" alt="Pupilfirst Logo" />
+              <div>
+                <p className="text-xs text-gray-500 pb-1">Industry Partner</p>
+                <div className="rounded-md bg-white px-2 py-1">
+                  <img className="block w-36 md:w-44" src="logos/micelio-logo.jpg" alt="Micelio Logo" />
+                </div>
+              </div>
             </div>
           </header>
           <div className="relative max-w-6xl 2xl:max-w-7xl flex flex-col md:flex-row justify-between mx-auto text-white pb-2 md:pb-16 px-4 xl:px-0">
             <div className="w-full md:w-7/12 flex-shrink-0 relative z-10">
-              <h1 className="hero__title-gradient text-3xl md:text-5xl lg:text-6xl 2xl:text-7xl lg:pt-8 font-light">
-                Introduction to <br/>
-                <span className="font-bold">Electric Vehicles<span className="text-sm lg:text-2xl ml-2">(EV101)</span></span>
+              <h1 className="hero__title-gradient text-3xl md:text-5xl lg:text-7xl 2xl:text-8xl py-2 lg:pt-8 lg:pb-4 ">
+                Electric Vehicles <br/>
+                Open Program
               </h1>
-              <p className="max-w-2xl text-sm md:text-base lg:text-xl pt-2 lg:pt-4 lg:pr-12">Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and  build a career in Electric Vehicles.</p>
+              <p className="max-w-2xl text-sm md:text-base lg:text-xl lg:pr-12">Electric Vehicles Open Program is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and  build a career in Electric Vehicles.</p>
               <div className="inline-block rounded bg-secondary-900 bg-opacity-50 py-1 px-3 mt-4 ">
                 <div className="flex sm:items-center space-x-2 font-medium text-sm text-secondary-300">
                   <span className="block pt-1 sm:pt-0 flex-shrink-0">
@@ -73,9 +83,8 @@ export default function Home() {
                 </div>
               </div>
               <div className="pt-4 md:pt-8">
-                <a
-                  className="inline-block w-full md:w-64 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
-                  href="#">Apply Now</a>
+                <a className="inline-block w-full md:w-64 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition" target="_blank"
+                  href="https://pupilfirst.typeform.com/to/ApAOilht">Apply Now</a>
               </div>
             </div>
             <div className="md:5/12 hero__image-container flex z-0 pt-12 lg:pt-16">
@@ -86,17 +95,38 @@ export default function Home() {
         <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden max-w-6xl 2xl:max-w-7xl mx-auto p-4 lg:p-10">
             <div className="flex space-y-4 md:space-y-0 md:space-x-12 flex-col md:flex-row justify-between items-start">
-              <div className="md:w-10/12 text-white">
-                <h2 className="text-xl md:text-2xl text-tertiary-300">Supported by Micelio, Electric mobility ecosystem leader in India.</h2>
+              <div className="md:w-9/12 text-white">
+                <h2 className="text-xl md:text-2xl text-tertiary-300">Supported by Micelio, <br/>Electric mobility ecosystem leader in India.</h2>
                 <p className="mt-2 text-sm md:text-base lg:text-lg">The ikigai of Micelio is to enable an ecosystem that will allow clean mobility start-ups to thrive and deliver practical carbon reduction outcomes in day to day world applications.</p>
                 <p className="mt-3">Learn More at: <a className="text-secondary-400 font-semibold" target="_blank" href="https://www.micelio.com">https://www.micelio.com</a>/</p>
               </div>
-              <div className="md:w-2/12 flex-shrink-0">
-                <p className="text-white font-semibold text-sm">Industry Partner</p>
+              <div className="md:w-3/12 flex-shrink-0">
                 <div className="bg-white rounded-md p-2 mt-1">
-                  <img className="object-contain" src="logos/micelio-logo.png" alt="Micelio - The network that drives you" />
+                  <img className="object-contain" src="logos/micelio-logo.jpg" alt="Micelio - The network that drives you" />
                 </div>
               </div>
+            </div>
+            <div className="grid lg:grid-cols-2 gap-6 mt-8">
+              <div className="flex flex-col space-y-4 mt-2">
+                <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
+                  <img className="object-contain w-full h-full relative rounded-xl" src="micelio-studio/micelio-studio-01.jpg" alt="Introduction to Electric Vehicles (EV101)" />
+                </div>
+                <div className="grid md:grid-cols-2 gap-4">
+                  <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
+                    <img className="object-contain w-full h-full relative rounded-xl" src="micelio-studio/micelio-studio-02.jpg" alt="Introduction to Electric Vehicles (EV101)" />
+                  </div>
+                  <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
+                    <img className="object-contain w-full h-full relative rounded-xl" src="micelio-studio/micelio-studio-03.jpg" alt="Introduction to Electric Vehicles (EV101)" />
+                  </div>
+                </div>
+              </div>
+              <div className="text-white text-lg space-y-4">
+                <p><span className="text-tertiary-300 font-semibold">Micelio Discovery Studio</span> is a high performance team with the goal of enabling and augmenting the growth and transformation of the electric vehicle ecosystem.</p>
+                <p>We are developing and running a community of 1100+ EV start-ups, OEMs, Vehicle manufacturers, Fleets, and E-commerce companies operating EVs. Micelio Studio also provides assistance in market connection and supply chain support. We are one stop solution providers for EV space.</p>
+                <p>Micelio Discovery Studio has invested in critical, EV specific machinery and industrial space you can benefit from extensively at a very nominal amount. High-value equipment with precision provides you with better test results and support. We are also running open-source documentation and projects to assist in the overall growth of EV technology in the industry.</p>
+                <p>Wonders happen when communities come together. Micelio Discovery Studio aims to bring together and nurture all those communities who share our vision of electrifying mobility and propelling the entire electric mobility ecosystem towards a more sustainable future.</p>
+              </div>
+
             </div>
           </div>
         </section>
@@ -111,7 +141,7 @@ export default function Home() {
                       <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-snug lg:ml-28 2xl:ml-44 pl-4">Everything you<br /> need to know</h2>
                     </div>
                   </div>
-                  <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-28 2xl:ml-44">
+                  <div className="space-y-6 md:space-y-12 md:pr-12 pt-4 md:pt-10 ml-4 lg:ml-24 2xl:ml-44">
                     <div>
                       <h3 className="heading-with-underscore text-xl lg:text-3xl text-secondary-500 font-semibold">What is this program?</h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">Industry-led introductory course in Electric Vehicles (EV) for undergraduate students pursuing engineering degrees in India.</p>
@@ -159,41 +189,42 @@ export default function Home() {
                         <div className="w-3 h-3 bg-gray-900 rounded-full"></div>
                       </div>
                       <div className="p-2 md:p-4 lg:p-5 2xl:p-6">
-                        <p className="text-secondary-400 text-xl font-semibold leading-tight">Introduction to <br/> Electric Vehicles (EV101)</p>
+                        <p className="text-secondary-400 text-lg lg:text-xl font-semibold leading-tight">Electric Vehicles Open Program</p>
                         <p className="text-xs mt-4 text-gray-400">Important Dates</p>
                         <div className="text-xs md:text-sm mt-2 space-y-3">
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Mar 10, 2021</p>
+                            <p className="col-span-2 text-primary-400">Apr 09, 2021</p>
                             <p className="col-span-5 text-white">- Application Opens</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Mar 21, 2021</p>
+                            <p className="col-span-2 text-primary-400">Apr 18, 2021</p>
                             <p className="col-span-5 text-white">- Applications window ends</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Mar 26, 2021</p>
+                            <p className="col-span-2 text-primary-400">Apr 22, 2021</p>
                             <p className="col-span-5 text-white">- Announcement of selected students </p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Apr 02, 2021</p>
+                            <p className="col-span-2 text-primary-400">Apr 23, 2021</p>
                             <p className="col-span-5 text-white">- Program Begins</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Apr 23, 2021</p>
+                            <p className="col-span-2 text-primary-400">May 16, 2021</p>
                             <p className="col-span-5 text-white">- Program Ends</p>
                           </div>
                           <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">Apr 26, 2021</p>
+                            <p className="col-span-2 text-primary-400">May 24, 2021</p>
                             <p className="col-span-5 text-white">- Course Conclusion</p>
                           </div>
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
-                            className="block px-10 py-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
-                            href="#">Apply Now</a>
+                            className="block px-10 py-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition" target="_blank"
+                            href="https://pupilfirst.typeform.com/to/ApAOilht">Apply Now</a>
                         </div>
                       </div>
                     </div>
+                    <p className="hidden text-gray-400 text-sm pl-px pt-2">Check out the program terms here - </p>
                   </div>
                 </div>
               </div>
@@ -201,16 +232,16 @@ export default function Home() {
           </div>
         </section>
         <section className="bg-gradient-to-br from-gray-800 to-gray-900 border-t border-b border-gray-700 mx-auto relative overflow-hidden shadow-lg">
-          <div className=" max-w-6xl 2xl:max-w-7xl mx-auto">
+          <div className="max-w-6xl 2xl:max-w-7xl mx-auto">
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="pt-10 lg:pt-20">
                 <div className="heading-with-leftborder">
-                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">Prepared by <br />Industry Experts</h2>
+                  <h2 className="max-w-4xl font-bold text-2xl lg:text-6xl text-white leading-tight ml-4 lg:mx-auto">Prepared by Industry Experts</h2>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="max-w-xl text-white">
-                  <p className="text-sm md:text-base lg:text-lg mt-4">The course is hosted online on the Pupilfirst platform and has been jointly authored by Mr. Swapnil Mankame and Dr. Saurabh Markandeya who have deep industry experience in the Electric Vehicles domain.</p>
+                <div className="text-white">
+                  <p className="text-sm md:text-base lg:text-lg mt-4">The course is hosted online on the Pupilfirst platform and has been jointly authored by <br/>Mr. Swapnil Mankame and Dr. Saurabh Markandeya who have deep industry experience in <br/>the Electric Vehicles domain.</p>
                 </div>
               </div>
               <svg className="absolute right-0 top-1/4 object-center" width="120" height="400" fill="none" viewBox="0 0 120 400">
@@ -222,20 +253,27 @@ export default function Home() {
                 <rect width="120" height="400" fill="url(#5d0dd344-b041-4d26-bec4-8d33ea57ec9b)" />
               </svg>
               <div className="max-w-4xl mx-auto relative z-10 pl-4 lg:pl-0">
-                <div className="max-w-xl space-y-10 sm:space-y-0 sm:grid sm:grid-cols-2 sm:gap-4 md:gap-12 lg:gap-20 py-12 lg:pb-16">
-                  <ImageWithDescription name="Mr. Swapnil Mankame"
+                <div className="space-y-10 sm:space-y-0 sm:grid sm:grid-cols-3 sm:gap-4 md:gap-8 lg:gap-12 py-12 lg:pb-16">
+                   <ImageWithDescription name="Mr. Swapnil Mankame"
                     caption={<>
                       CEO, Founder at <br />Mankame Automotive</>}
                       role={<>
-                      (Course Author &amp; Full time coach) Entrepreneur in the EV pace and ecosystem leader</> }
+                      <strong>Course Author &amp; Full time coach</strong> Entrepreneur in the EV pace and ecosystem leader</> }
                     imgSrc="people/Swapnil-Mankame.png"
                   />
                   <ImageWithDescription name="Dr. Saurabh Markandeya"
                     caption={<>
                       Co-CEO at The SHADO Group &amp; <br/>Co-founder at AdarinET</>}
                       role={<>
-                      (Head Coach &amp; Course Reviewer) Research scholar and entrepreneur in the EV space for over 5 years.</> }
+                      <strong>Head Coach &amp; Course Reviewer</strong> Research scholar and entrepreneur in the EV space for over 5 years.</> }
                     imgSrc="people/Dr-Saurabh-Markandeya.png"
+                  />
+                  <ImageWithDescription name="Nandhu Suresh"
+                    caption={<>
+                      Course Operations Associate at Pupilfirst</>}
+                      role={<>
+                      <strong>Teaching Assistant and Course Reviewer.</strong></> }
+                    imgSrc="people/Nandhu-Suresh.png"
                   />
                 </div>
               </div>
@@ -247,6 +285,7 @@ export default function Home() {
             <div className="border-l border-gray-700 mx-4 xl:mx-0">
               <div className="max-w-4xl mx-auto text-white pt-10 lg:pt-20">
                 <div className="max-w-4xl p-4 md:px-8 md:py-10 lg:px-12 lg:py-10 bg-gradient-to-br from-gray-800 to-gray-900 rounded-r-lg md:rounded-lg border border-gray-700 relative shadow-lg -ml-px md:ml-0">
+                  <div className="absolute bg-gradient-to-r from-primary-400 to-secondary-400 rounded-b-md h-1 md:h-2 w-20 md:w-28 top-0 left-4 md:left-8 lg:left-12"></div>
                   <div>
                     <h3 className="text-lg lg:text-4xl max-w-lg leading-snug lg:leading-10">Ask Me Anything (AMA) Session with experts working in the EV Domain</h3>
                     <p className="text-sm md:text-base lg:text-lg pt-4">You will hear experiences and stories of  people in the EV industry around their career in the domain, opportunities, skill requirement and how
@@ -323,11 +362,11 @@ export default function Home() {
                   <div className="relative bg-gradient-to-br from-gray-800 to-gray-900 border border-secondary-400 rounded-lg p-3 md:p-5">
                     <span className="block absolute z-10 px-2 py-1 text-xs leading-snug font-semibold text-gray-900 rounded -top-3 right-5 md:right-auto md:left-5 bg-gradient-to-r from-secondary-400 to-primary-400">This Course</span>
                     <p className="text-secondary-400 text-xl md:text-2xl font-bold">EV 101</p>
-                    <p className="text-sm md:text-base text-white leading-snug mt-1">Beginner - Introduction to Electric Vehicles</p>
+                    <p className="text-sm md:text-base text-white leading-snug mt-1">Mathematical Modeling of an Electric Vehicle</p>
                   </div>
                   <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-primary-400 rounded-lg p-3 md:p-5">
                     <p className="text-primary-400 text-xl md:text-2xl font-bold">EV 201</p>
-                    <p className="text-sm md:text-base text-white leading-snug mt-1">Intermediate course on Electric Vehicles </p>
+                    <p className="text-sm md:text-base text-white leading-snug mt-1">Design and Build your own EV Powertrain</p>
                   </div>
                   <div className="bg-gradient-to-br from-gray-800 to-gray-900 border border-tertiary-400 rounded-lg p-3 md:p-5">
                     <p className="text-tertiary-400 text-xl md:text-2xl font-bold">EV 301</p>
@@ -336,11 +375,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <img className="object-cover rounded-md " src="course-path/ev-course-path.png" />
+                <img className="object-cover rounded-md " src="course-path/ev-course-path.png" alt="Electric vehicle open program course pathway." />
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="max-w-3xl mt-4">
-                  <p className="text-white lg:text-lg">While the EV 101, the introductory course will serve as the foundation, check the infographic below to understand what skills will be gained in the Intermediate course on Electric Vehicles (EV 201).</p>
+                  <p className="text-white lg:text-lg">While the EV 101, the introductory course will serve as the foundation, check the infographic below to understand what skills will be gained in the intermediate level course “Design and Build your own EV Powertrain" (EV 201).</p>
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0 mt-8">
@@ -373,7 +412,7 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="flex justify-end w-full">
-                            <img className="object-contain relative h-full w-8 md:w-12" src="course-path/ev-car-sticky.png" />
+                            <img className="object-contain relative h-full w-8 md:w-12" src="course-path/ev-car-sticky.png" alt="Electric Car" />
                           </div>
                         </div>
                       </div>
@@ -481,7 +520,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-6 text-white">
+                <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm lg:text-lg">This program is created by a team of over a dozen people from across multiple companies, with support and funding from Micelio Mobility.</p>
                   <p className="text-sm md:text-base lg:text-lg">This enables us to offer full scholarships for up to  top 100 selected students who qualify for the programme.</p>
                 </div>
@@ -496,7 +535,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-6 text-white">
+                <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">Students in the programme  will have access to a Community on the Pupilfirst platform for discussions with the industry experts and with other students. Through these rich community interactions, you’ll also get to build relationships early on with a peer group who’ll go on to become industry leaders in the future.</p>
                 </div>
               </div>
@@ -510,7 +549,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-6 text-white">
+                <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">If you are among the top performers in this course, you’ll stand a chance to engage future batches as a Teaching Assistant (TA). As a TA, you’ll be working closely with the industry experts and the Pupilfirst to meaningfully deliver learning for students in future batches.</p>
                 </div>
               </div>
@@ -529,27 +568,27 @@ export default function Home() {
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
                 <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden divide-y divide-gray-700 mt-4">
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">March 10, 2021</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 09, 2021</p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">- Application Opens</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">March 21, 2021</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 18, 2021</p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">- Applications window ends</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">March 26, 2021</p>
+                    <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">April 22, 2021</p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">- Announcement of selected students </p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 02, 2021</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 23, 2021</p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">- Program Begins</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 23, 2021</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">May 16, 2021</p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">- Program Ends</p>
                   </div>
                   <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">April 26, 2021</p>
+                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">May 24, 2021</p>
                     <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">- Course Conclusion</p>
                   </div>
                 </div>
@@ -564,15 +603,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="max-w-4xl mx-auto pl-4 lg:pl-0">
-                <div className="space-y-6 text-white">
+                <div className="max-w-3xl space-y-6 text-white">
                   <p className="mt-4 text-sm md:text-base lg:text-lg">India has chalked a plan to aid its electric mobility mission by creating a specialised workforce. The blueprint aims at generating 10 million jobs in the future.</p>
                   <p className="text-sm md:text-base lg:text-lg">The government has initiated the National Electric Mobility Mission Plan in the year 2013 with an objective to put 6-7 million electric vehicles on Indian roads by 2020 and committing to achieving 30% e-mobility in the country by 2030.</p>
                   <p className="text-sm md:text-base lg:text-lg">The government's Automotive Mission Plan 2026 evaluates to create an additional 65 million jobs in the auto sector.</p>
                 </div>
                 <div className="pt-10 lg:pt-16">
-                  <h4 className="text-primary-400 text-xl lg:text-3xl font-bold">Questions?</h4>
+                  <p className="text-primary-400 text-xl lg:text-3xl font-bold">Questions?</p>
                   <p className="text-white pt-2">Email us at
-                    <a href="mailto:ev@pupilfirst.org" className={"text-primary-400 underline pl-2 tracking-wide font-medium"}>ev@pupilfirst.org</a>
+                    <a href="mailto:support@pupilfirst.org" className={"text-primary-400 underline pl-2 tracking-wide font-medium"}>support@pupilfirst.org</a>
                   </p>
                 </div>
               </div>
@@ -580,15 +619,15 @@ export default function Home() {
                 <div className="rounded-lg bg-gradient-to-r from-primary-500 to-secondary-400 border border-primary-400 p-6 lg:p-12">
                   <h4 className="text-xl lg:text-5xl font-extrabold text-center">Apply now for <br />EV Open Program</h4>
                   <div className="mt-4 flex justify-center">
-                    <a className="block text-center px-10 font-semibold py-3 bg-gray-900 text-primary-400 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-400 hover:text-gray-900 transition"
-                      href="#">Apply Now</a>
+                    <a className="block text-center px-10 font-semibold py-3 bg-gray-900 text-primary-400 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-400 hover:text-gray-900 transition" target="_blank"
+                      href="https://pupilfirst.typeform.com/to/ApAOilht">Apply Now</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </section>
-      </main >
-    </div >
+      </main>
+    </div>
   );
 }
