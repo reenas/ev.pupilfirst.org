@@ -299,7 +299,7 @@ export default function Home() {
                         When?
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        April 2, 2021 - April 26, 2021
+                        April 23 - May 16, 2021
                       </p>
                     </div>
                     <div>
