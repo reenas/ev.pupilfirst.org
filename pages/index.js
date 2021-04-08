@@ -84,15 +84,15 @@ export default function Home() {
           <header className=" max-w-6xl 2xl:max-w-7xl mx-auto py-4 lg:py-8 px-4 xl:px-0">
             <div className="flex justify-between items-center">
               <img
-                className="block w-36 md:w-44"
+                className="block w-28 md:w-44"
                 src="logos/pupilfirst-logo.svg"
                 alt="Pupilfirst Logo"
               />
               <div>
-                <p className="text-xs text-gray-500 pb-1">Industry Partner</p>
+                <p className="hidden md:block text-xs text-gray-500 pb-1">Industry Partner</p>
                 <div className="rounded-md bg-white px-2 py-1">
                   <img
-                    className="block w-36 md:w-44"
+                    className="block w-28 md:w-44"
                     src="logos/micelio-logo.jpg"
                     alt="Micelio Logo"
                   />
@@ -151,8 +151,8 @@ export default function Home() {
         </section>
         <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden max-w-6xl 2xl:max-w-7xl mx-auto p-4 lg:p-10">
-            <div className="grid lg:grid-cols-2 grid-flow-col gap-6">
-              <div className="flex flex-col space-y-4 mt-2">
+            <div className="flex flex-col-reverse lg:flex-row lg:space-x-6">
+              <div className="lg:w-1/2 flex flex-col space-y-4 mt-6 lg:mt-2">
                 <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                   <img
                     className="object-contain w-full h-full relative rounded-xl"
@@ -191,7 +191,7 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="text-white text-lg space-y-4">
+              <div className="lg:w-1/2 text-white text-lg space-y-4">
                 <div className="flex justify-between pt-1">
                   <div className="flex-1">
                     <h2 className="text-xl md:text-3xl text-tertiary-300">
@@ -200,28 +200,28 @@ export default function Home() {
                     </h2>
                   </div>
                 </div>
-                <p className="mt-2 text-sm md:text-base lg:text-lg">
+                <p className="text-sm md:text-base lg:text-lg">
                   The ikigai of Micelio is to enable an ecosystem that will
                   allow clean mobility start-ups to thrive and deliver practical
                   carbon reduction outcomes in day to day world applications.
                 </p>
 
-                <p>
-                  <a href="https://www.miceliostudio.com/" target="_blank" className="text-primary-400 font-semibold underline">
+                <p className="text-sm md:text-base lg:text-lg">
+                  <a href="https://www.miceliostudio.com/" target="_blank" className="text-primary-400 font-semibold underline hover:text-primary-500">
                     Micelio Discovery Studio
                   </a>{" "}
                   is a high performance team with the goal of enabling and
                   augmenting the growth and transformation of the electric
                   vehicle ecosystem.
                 </p>
-                <p>
+                <p className="text-sm md:text-base lg:text-lg">
                   We are developing and running a community of 1100+ EV
                   start-ups, OEMs, Vehicle manufacturers, Fleets, and E-commerce
                   companies operating EVs. Micelio Studio also provides
                   assistance in market connection and supply chain support. We
                   are one stop solution providers for EV space.
                 </p>
-                <p>
+                <p className="text-sm md:text-base lg:text-lg">
                   Micelio Discovery Studio has invested in critical, EV specific
                   machinery and industrial space you can benefit from
                   extensively at a very nominal amount. High-value equipment
@@ -230,17 +230,17 @@ export default function Home() {
                   projects to assist in the overall growth of EV technology in
                   the industry.
                 </p>
-                <p>
+                <p className="text-sm md:text-base lg:text-lg">
                   Wonders happen when communities come together. Micelio
                   Discovery Studio aims to bring together and nurture all those
                   communities who share our vision of electrifying mobility and
                   propelling the entire electric mobility ecosystem towards a
                   more sustainable future.
                 </p>
-                <p className="mt-3">
+                <p className="text-sm md:text-base lg:text-lg">
                   Learn More at:{" "}
                   <a
-                    className="text-primary-400 font-semibold underline"
+                    className="text-primary-400 font-semibold underline hover:text-primary-500"
                     target="_blank"
                     href="https://www.micelio.com"
                   >
@@ -354,12 +354,13 @@ export default function Home() {
                         More?
                       </h3>
                       <p className="ml-8 pt-1 text-sm lg:text-lg text-white">
-                        Read the terms and conditions
+                        Read the
                         <a
                           href="https://r.sv.co/ev-open-terms"
-                          className="pl-1 text-secondary-600 font-semibold cursor-pointer hover:text-secondary-700"
+                          target="_blank"
+                          className="pl-1 text-primary-400 underline cursor-pointer hover:text-primary-500"
                         >
-                          here
+                          terms and conditions
                         </a>
                       </p>
                     </div>
@@ -441,9 +442,6 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                    <p className="hidden text-gray-400 text-sm pl-px pt-2">
-                      Check out the program terms here -{" "}
-                    </p>
                   </div>
                 </div>
               </div>
