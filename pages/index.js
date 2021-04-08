@@ -151,45 +151,12 @@ export default function Home() {
         </section>
         <section className="mx-4 xl:mx-0 pb-10 md:pb-16">
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg border border-gray-700 relative overflow-hidden max-w-6xl 2xl:max-w-7xl mx-auto p-4 lg:p-10">
-            <div className="flex space-y-4 md:space-y-0 md:space-x-12 flex-col md:flex-row justify-between items-start">
-              <div className="md:w-9/12 text-white">
-                <h2 className="text-xl md:text-2xl text-tertiary-300">
-                  Supported by Micelio, <br />
-                  Electric mobility ecosystem leader in India.
-                </h2>
-                <p className="mt-2 text-sm md:text-base lg:text-lg">
-                  The ikigai of Micelio is to enable an ecosystem that will
-                  allow clean mobility start-ups to thrive and deliver practical
-                  carbon reduction outcomes in day to day world applications.
-                </p>
-                <p className="mt-3">
-                  Learn More at:{" "}
-                  <a
-                    className="text-secondary-400 font-semibold"
-                    target="_blank"
-                    href="https://www.micelio.com"
-                  >
-                    https://www.micelio.com
-                  </a>
-                  /
-                </p>
-              </div>
-              <div className="md:w-3/12 flex-shrink-0">
-                <div className="bg-white rounded-md p-2 mt-1">
-                  <img
-                    className="object-contain"
-                    src="logos/micelio-logo.jpg"
-                    alt="Micelio - The network that drives you"
-                  />
-                </div>
-              </div>
-            </div>
-            <div className="grid lg:grid-cols-2 gap-6 mt-8">
+            <div className="grid lg:grid-cols-2 grid-flow-col gap-6">
               <div className="flex flex-col space-y-4 mt-2">
                 <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                   <img
                     className="object-contain w-full h-full relative rounded-xl"
-                    src="micelio-studio/micelio-studio-01.jpg"
+                    src="micelio-studio/micelio-studio-1.jpg"
                     alt="Introduction to Electric Vehicles (EV101)"
                   />
                 </div>
@@ -197,24 +164,52 @@ export default function Home() {
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
-                      src="micelio-studio/micelio-studio-02.jpg"
+                      src="micelio-studio/micelio-studio-2.jpg"
                       alt="Introduction to Electric Vehicles (EV101)"
                     />
                   </div>
                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
-                      src="micelio-studio/micelio-studio-03.jpg"
+                      src="micelio-studio/micelio-studio-3.jpg"
+                      alt="Introduction to Electric Vehicles (EV101)"
+                    />
+                  </div>
+                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
+                    <img
+                      className="object-contain w-full h-full relative rounded-xl"
+                      src="micelio-studio/micelio-studio-4.jpg"
+                      alt="Introduction to Electric Vehicles (EV101)"
+                    />
+                  </div>
+                  <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
+                    <img
+                      className="object-contain w-full h-full relative rounded-xl"
+                      src="micelio-studio/micelio-studio-5.jpg"
                       alt="Introduction to Electric Vehicles (EV101)"
                     />
                   </div>
                 </div>
               </div>
               <div className="text-white text-lg space-y-4">
+                <div className="flex justify-between pt-1">
+                  <div className="flex-1">
+                    <h2 className="text-xl md:text-3xl text-tertiary-300">
+                      Supported by Micelio,
+                      <span className="font-medium text-base lg:text-lg block pt-1">Electric mobility ecosystem leader in India.</span>
+                    </h2>
+                  </div>
+                </div>
+                <p className="mt-2 text-sm md:text-base lg:text-lg">
+                  The ikigai of Micelio is to enable an ecosystem that will
+                  allow clean mobility start-ups to thrive and deliver practical
+                  carbon reduction outcomes in day to day world applications.
+                </p>
+
                 <p>
-                  <span className="text-tertiary-300 font-semibold">
+                  <a href="https://www.miceliostudio.com/" target="_blank" className="text-primary-400 font-semibold underline">
                     Micelio Discovery Studio
-                  </span>{" "}
+                  </a>{" "}
                   is a high performance team with the goal of enabling and
                   augmenting the growth and transformation of the electric
                   vehicle ecosystem.
@@ -241,6 +236,17 @@ export default function Home() {
                   communities who share our vision of electrifying mobility and
                   propelling the entire electric mobility ecosystem towards a
                   more sustainable future.
+                </p>
+                <p className="mt-3">
+                  Learn More at:{" "}
+                  <a
+                    className="text-primary-400 font-semibold underline"
+                    target="_blank"
+                    href="https://www.micelio.com"
+                  >
+                    https://www.micelio.com
+                  </a>
+                  /
                 </p>
               </div>
             </div>
