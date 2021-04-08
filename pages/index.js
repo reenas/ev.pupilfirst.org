@@ -43,13 +43,10 @@ export default function Home() {
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
           rel="stylesheet"
         />
-        <meta
-          property="og:title"
-          content="Introduction to Electric Vehicles (EV101)"
-        />
+        <meta property="og:title" content="Electric Vehicles Open Program" />
         <meta
           property="og:description"
-          content="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles."
+          content="Electric Vehicles Open Program is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles."
         />
         <meta name="theme-color" content="#21252E" />
         <meta
@@ -63,9 +60,9 @@ export default function Home() {
         />
         <meta
           property="og:site_name"
-          content="Introduction to Electric Vehicles (EV101)"
+          content="Electric Vehicles Open Program"
         />
-        <meta name="Introduction to Electric Vehicles (EV101) is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
+        <meta name="Electric Vehicles Open Program is a national programme to identify the top 100 Indian undergraduate students who are interested to learn and build a career in Electric Vehicles." />
 
         <script
           async
