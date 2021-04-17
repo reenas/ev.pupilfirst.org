@@ -513,7 +513,7 @@ export default function Home() {
                     role={
                       <>
                         <strong>Course Author &amp; Full time coach</strong>{" "}
-                        Entrepreneur in the EV pace and ecosystem leader
+                        Entrepreneur in the EV space and ecosystem leader
                       </>
                     }
                     imgSrc="people/Swapnil-Mankame.png"
