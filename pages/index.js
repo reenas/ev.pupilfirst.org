@@ -89,7 +89,9 @@ export default function Home() {
                 alt="Pupilfirst Logo"
               />
               <div>
-                <p className="hidden md:block text-xs text-gray-500 pb-1">Industry Partner</p>
+                <p className="hidden md:block text-xs text-gray-500 pb-1">
+                  Industry Partner
+                </p>
                 <div className="rounded-md bg-white px-2 py-1">
                   <img
                     className="block w-28 md:w-44"
@@ -124,19 +126,16 @@ export default function Home() {
                       <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
                     </svg>
                   </span>
-                  <p>
-                    Upto Top 100 students who qualify for the program get a 100%
-                    scholarship!
-                  </p>
+                  <p>Applications to the EV Open Program have closed.</p>
                 </div>
               </div>
               <div className="pt-4 md:pt-8">
                 <a
-                  className="inline-block w-full md:w-64 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
+                  className="inline-block w-full md:w-96 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                   target="_blank"
-                  href="https://pupilfirst.typeform.com/to/ApAOilht"
+                  href="https://docs.google.com/forms/d/1DKRf5SnC9mCya9RQ8PgcYdnlTVFBUX5ue67rRZO3aAE/viewform"
                 >
-                  Apply Now
+                  Pre-register for upcoming courses
                 </a>
               </div>
             </div>
@@ -175,7 +174,7 @@ export default function Home() {
                       alt="Introduction to Electric Vehicles (EV101)"
                     />
                   </div>
-                   <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
+                  <div className="bg-gradient-to-br from-primary-400 to-secondary-500 p-0.5 rounded-xl">
                     <img
                       className="object-contain w-full h-full relative rounded-xl"
                       src="micelio-studio/micelio-studio-4.jpg"
@@ -196,7 +195,9 @@ export default function Home() {
                   <div className="flex-1">
                     <h2 className="text-xl md:text-3xl text-tertiary-300">
                       Supported by Micelio,
-                      <span className="font-medium text-base lg:text-lg block pt-1">Electric mobility ecosystem leader in India.</span>
+                      <span className="font-medium text-base lg:text-lg block pt-1">
+                        Electric mobility ecosystem leader in India.
+                      </span>
                     </h2>
                   </div>
                 </div>
@@ -207,7 +208,11 @@ export default function Home() {
                 </p>
 
                 <p className="text-sm md:text-base lg:text-lg">
-                  <a href="https://www.miceliostudio.com/" target="_blank" className="text-primary-400 font-semibold underline hover:text-primary-500">
+                  <a
+                    href="https://www.miceliostudio.com/"
+                    target="_blank"
+                    className="text-primary-400 font-semibold underline hover:text-primary-500"
+                  >
                     Micelio Discovery Studio
                   </a>{" "}
                   is a high performance team with the goal of enabling and
@@ -435,9 +440,9 @@ export default function Home() {
                           <a
                             className="block px-10 py-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                             target="_blank"
-                            href="https://pupilfirst.typeform.com/to/ApAOilht"
+                            href="https://docs.google.com/forms/d/1DKRf5SnC9mCya9RQ8PgcYdnlTVFBUX5ue67rRZO3aAE/viewform"
                           >
-                            Apply Now
+                            Pre-register for upcoming courses
                           </a>
                         </div>
                       </div>
@@ -1195,16 +1200,16 @@ export default function Home() {
               <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
                 <div className="rounded-lg bg-gradient-to-r from-primary-500 to-secondary-400 border border-primary-400 p-6 lg:p-12">
                   <h4 className="text-xl lg:text-5xl font-extrabold text-center">
-                    Apply now for <br />
-                    EV Open Program
+                    Applications to the <br />
+                    EV Open Program have closed.
                   </h4>
                   <div className="mt-4 flex justify-center">
                     <a
                       className="block text-center px-10 font-semibold py-3 bg-gray-900 text-primary-400 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-400 hover:text-gray-900 transition"
                       target="_blank"
-                      href="https://pupilfirst.typeform.com/to/ApAOilht"
+                      href="https://docs.google.com/forms/d/1DKRf5SnC9mCya9RQ8PgcYdnlTVFBUX5ue67rRZO3aAE/viewform"
                     >
-                      Apply Now
+                      Pre-register for upcoming courses
                     </a>
                   </div>
                 </div>
