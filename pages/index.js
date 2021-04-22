@@ -126,16 +126,16 @@ export default function Home() {
                       <path d="M10.067.87a2.89 2.89 0 0 0-4.134 0l-.622.638-.89-.011a2.89 2.89 0 0 0-2.924 2.924l.01.89-.636.622a2.89 2.89 0 0 0 0 4.134l.637.622-.011.89a2.89 2.89 0 0 0 2.924 2.924l.89-.01.622.636a2.89 2.89 0 0 0 4.134 0l.622-.637.89.011a2.89 2.89 0 0 0 2.924-2.924l-.01-.89.636-.622a2.89 2.89 0 0 0 0-4.134l-.637-.622.011-.89a2.89 2.89 0 0 0-2.924-2.924l-.89.01-.622-.636zm.287 5.984l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708.708z" />
                     </svg>
                   </span>
-                  <p>Applications to the EV Open Program have closed.</p>
+                  <p>Pupilfirst has announced the results!</p>
                 </div>
               </div>
               <div className="pt-4 md:pt-8">
                 <a
-                  className="inline-block w-full md:w-96 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
+                  className="inline-block w-full md:w-80 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                   target="_blank"
-                  href="https://docs.google.com/forms/d/1DKRf5SnC9mCya9RQ8PgcYdnlTVFBUX5ue67rRZO3aAE/viewform"
+                  href="https://r.sv.co/ev-2021-results"
                 >
-                  Pre-register for upcoming courses
+                  View list of selected students
                 </a>
               </div>
             </div>
@@ -440,9 +440,9 @@ export default function Home() {
                           <a
                             className="block px-10 py-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                             target="_blank"
-                            href="https://docs.google.com/forms/d/1DKRf5SnC9mCya9RQ8PgcYdnlTVFBUX5ue67rRZO3aAE/viewform"
+                            href="https://r.sv.co/ev-2021-results"
                           >
-                            Pre-register for upcoming courses
+                            View list of selected students
                           </a>
                         </div>
                       </div>
@@ -1200,16 +1200,16 @@ export default function Home() {
               <div className="max-w-4xl mx-auto py-10 lg:pb-24 pl-4 xl:pl-0">
                 <div className="rounded-lg bg-gradient-to-r from-primary-500 to-secondary-400 border border-primary-400 p-6 lg:p-12">
                   <h4 className="text-xl lg:text-5xl font-extrabold text-center">
-                    Applications to the <br />
-                    EV Open Program have closed.
+                    Pupilfirst has <br />
+                    announced the results!
                   </h4>
                   <div className="mt-4 flex justify-center">
                     <a
                       className="block text-center px-10 font-semibold py-3 bg-gray-900 text-primary-400 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-400 hover:text-gray-900 transition"
                       target="_blank"
-                      href="https://docs.google.com/forms/d/1DKRf5SnC9mCya9RQ8PgcYdnlTVFBUX5ue67rRZO3aAE/viewform"
+                      href="https://r.sv.co/ev-2021-results"
                     >
-                      Pre-register for upcoming courses
+                      View list of selected students
                     </a>
                   </div>
                 </div>
