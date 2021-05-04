@@ -129,13 +129,36 @@ export default function Home() {
                   <p>Pupilfirst has announced the results!</p>
                 </div>
               </div>
-              <div className="pt-4 md:pt-8">
+              <div className="mt-4 text-secondary-500 hover:text-primary-500">
                 <a
-                  className="inline-block w-full md:w-80 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
-                  target="_blank"
+                  className="flex items-center font-semibold"
                   href="https://r.sv.co/ev-2021-results"
                 >
                   View list of selected students
+                  <span className="pl-2 ">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                      width="16"
+                      height="16"
+                      role="img"
+                      viewBox="0 0 512 512"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M432,320H400a16,16,0,0,0-16,16V448H64V128H208a16,16,0,0,0,16-16V80a16,16,0,0,0-16-16H48A48,48,0,0,0,0,112V464a48,48,0,0,0,48,48H400a48,48,0,0,0,48-48V336A16,16,0,0,0,432,320ZM488,0h-128c-21.37,0-32.05,25.91-17,41l35.73,35.73L135,320.37a24,24,0,0,0,0,34L157.67,377a24,24,0,0,0,34,0L435.28,133.32,471,169c15,15,41,4.5,41-17V24A24,24,0,0,0,488,0Z"
+                      />
+                    </svg>
+                  </span>
+                </a>
+              </div>
+              <div className="pt-4 md:pt-6">
+                <a
+                  className="inline-block w-full md:w-80 p-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
+                  target="_blank"
+                  href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
+                >
+                  Register For Next Course
                 </a>
               </div>
             </div>
@@ -427,22 +450,14 @@ export default function Home() {
                               - Program Ends
                             </p>
                           </div>
-                          <div className="grid grid-cols-7 gap-2 md:gap-3">
-                            <p className="col-span-2 text-primary-400">
-                              May 24, 2021
-                            </p>
-                            <p className="col-span-5 text-white">
-                              - Course Conclusion
-                            </p>
-                          </div>
                         </div>
                         <div className="pt-4 lg:pt-6">
                           <a
                             className="block px-10 py-3 text-center bg-gradient-to-r from-primary-500 to-secondary-400 text-gray-900 border border-primary-500 font-semibold rounded-md shadow-lg hover:shadow-2xl hover:bg-secondary-400 hover:to-primary-500 transition"
                             target="_blank"
-                            href="https://r.sv.co/ev-2021-results"
+                            href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
                           >
-                            View list of selected students
+                            Register For Next Course
                           </a>
                         </div>
                       </div>
@@ -1207,9 +1222,9 @@ export default function Home() {
                     <a
                       className="block text-center px-10 font-semibold py-3 bg-gray-900 text-primary-400 border border-primary-400 rounded-md shadow-md hover:shadow-2xl hover:bg-primary-400 hover:text-gray-900 transition"
                       target="_blank"
-                      href="https://r.sv.co/ev-2021-results"
+                      href="https://docs.google.com/forms/d/e/1FAIpQLSe_h7Cr0V50c6lgX-s6inoPfTWSNRAQeGQA1W7NDMkDlxTrrA/viewform"
                     >
-                      View list of selected students
+                      Register For Next Course
                     </a>
                   </div>
                 </div>
