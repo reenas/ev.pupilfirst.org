@@ -1154,14 +1154,6 @@ export default function Home() {
                       - Program Ends
                     </p>
                   </div>
-                  <div className="md:grid md:grid-cols-12 p-4">
-                    <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
-                      May 24, 2021
-                    </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">
-                      - Course Conclusion
-                    </p>
-                  </div>
                 </div>
               </div>
             </div>
