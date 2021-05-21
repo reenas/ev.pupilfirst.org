@@ -414,7 +414,7 @@ export default function Home() {
                             <p className="col-span-2 text-primary-400">
                               Apr 09, 2021
                             </p>
-                            <p className="col-span-5 text-white">
+                            <p className="col-span-5 text-gray-200 line-through">
                               - Application Opens
                             </p>
                           </div>
@@ -422,7 +422,7 @@ export default function Home() {
                             <p className="col-span-2 text-primary-400">
                               Apr 18, 2021
                             </p>
-                            <p className="col-span-5 text-white">
+                            <p className="col-span-5 text-gray-200 line-through">
                               - Applications window ends
                             </p>
                           </div>
@@ -430,7 +430,7 @@ export default function Home() {
                             <p className="col-span-2 text-primary-400">
                               Apr 22, 2021
                             </p>
-                            <p className="col-span-5 text-white">
+                            <p className="col-span-5 text-gray-200 line-through">
                               - Announcement of selected students{" "}
                             </p>
                           </div>
@@ -438,7 +438,7 @@ export default function Home() {
                             <p className="col-span-2 text-primary-400">
                               Apr 23, 2021
                             </p>
-                            <p className="col-span-5 text-white">
+                            <p className="col-span-5 text-gray-200 line-through">
                               - Program Begins
                             </p>
                           </div>
@@ -446,7 +446,7 @@ export default function Home() {
                             <p className="col-span-2 text-primary-400">
                               May 16, 2021
                             </p>
-                            <p className="col-span-5 text-white">
+                            <p className="col-span-5 text-gray-200 line-through">
                               - Program Ends
                             </p>
                           </div>
@@ -1118,7 +1118,7 @@ export default function Home() {
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
                       April 09, 2021
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
                       - Application Opens
                     </p>
                   </div>
@@ -1126,7 +1126,7 @@ export default function Home() {
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
                       April 18, 2021
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
                       - Applications window ends
                     </p>
                   </div>
@@ -1134,7 +1134,7 @@ export default function Home() {
                     <p className="col-span-3 text-sm lg:text-basetext-sm lg:text-base text-primary-400 lg:text-right">
                       April 22, 2021
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200">
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
                       - Announcement of selected students{" "}
                     </p>
                   </div>
@@ -1142,7 +1142,7 @@ export default function Home() {
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
                       April 23, 2021
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
                       - Program Begins
                     </p>
                   </div>
@@ -1150,7 +1150,7 @@ export default function Home() {
                     <p className="col-span-3 text-sm lg:text-base text-primary-400 lg:text-right">
                       May 16, 2021
                     </p>
-                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-white">
+                    <p className="col-span-9 text-sm lg:text-base ml-4 md:ml-8 text-gray-200 line-through">
                       - Program Ends
                     </p>
                   </div>
