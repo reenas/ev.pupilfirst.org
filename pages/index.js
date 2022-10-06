@@ -85,7 +85,7 @@ export default function Home() {
             <div className="flex justify-between items-center">
               <img
                 className="block w-28 md:w-44"
-                src="logos/pupilfirst-logo.svg"
+                src="logos/pupilfirst-logo-ev.svg"
                 alt="Pupilfirst Logo"
               />
               <div>

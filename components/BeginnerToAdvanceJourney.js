@@ -133,7 +133,7 @@ export default function BeginnerToAdvanceJourney() {
                   </p>
                   <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
-                      Motor control for the BLDC motors.
+                      Motor control for BLDC motors.
                     </p>
                   </div>
                 </div>
@@ -154,7 +154,7 @@ export default function BeginnerToAdvanceJourney() {
                   </p>
                   <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
-                      Battery Managements systems for EVs.
+                      Battery managements systems for EVs.
                     </p>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ export default function BeginnerToAdvanceJourney() {
                   </p>
                   <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
-                      Communication protocols & Electronic noise.
+                      Communication protocols &amp; electronic noise.
                     </p>
                   </div>
                 </div>

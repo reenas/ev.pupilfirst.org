@@ -40,7 +40,7 @@ export default function () {
             <div className="flex justify-between items-center">
               <img
                 className="block w-28 md:w-44"
-                src="logos/pupilfirst-logo.svg"
+                src="logos/pupilfirst-logo-ev.svg"
                 alt="Pupilfirst Logo"
               />
               <div>
@@ -126,7 +126,7 @@ export default function () {
             <div className="flex flex-col gap-8 col-span-7">
               <DescriptionListItem
                 title="What is this?"
-                content="It’s a national teaching fellowship for experienced professionals in the field of Electric Vehicles who are interested in being both a course author and coach for EV courses that shall be taught in Universities across India."
+                content="It's a national teaching fellowship for experienced professionals in the field of Electric Vehicles who are interested in being both a course author and coach for EV courses that shall be taught in Universities across India."
               />
               <DescriptionListItem
                 title="What is its purpose?"
@@ -138,7 +138,7 @@ export default function () {
               />
               <DescriptionListItem
                 title="When?"
-                content="October 3, 2022 to October 24, 2022"
+                content="October 3, 2022 to October 26, 2022"
               />
               <DescriptionListItem
                 title="Effort?"
@@ -159,7 +159,7 @@ export default function () {
               />
               <DescriptionListItem
                 title="Course delivery?"
-                content="The EV courses are taken by students completely asynchronously. Students go through the course content prepared by Industry experts, work on assignments and submitthem for review, ask questions on forums when they have doubts, get feedback to improve their submission, and resubmit their work after incorporating the feedback"
+                content="The EV courses are taken by students completely asynchronously. Students go through the course content prepared by Industry experts, work on assignments and submit them for review, ask questions on forums when they have doubts, get feedback to improve their submission, and resubmit their work after incorporating the feedback"
               />
               <DescriptionListItem
                 title="Part-time or full-time?"
@@ -212,11 +212,11 @@ export default function () {
                         content="LITE EV Teaching Fellowship Call"
                       />
                       <DateAndContent
-                        date="October 24, 2022"
+                        date="October 26, 2022"
                         content="Last Date to Apply for EV Teaching Fellowships"
                       />
                       <DateAndContent
-                        date="October 26, 2022"
+                        date="October 28, 2022"
                         content="Shortlisted Fellowship Candidates Announced"
                       />
                       <DateAndContent
@@ -245,27 +245,16 @@ export default function () {
             </p>
           }
         >
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
-            <img
-              src="/logos/pupilfirst-logo.svg"
-              className="h-20 w-full object-contain p-5 bg-white rounded-lg"
-              alt="pupilfirst"
-            />
-            <img
-              src="/logos/pupilfirst-logo.svg"
-              className="h-20 w-full object-contain p-5 bg-white rounded-lg"
-              alt="pupilfirst"
-            />
-            <img
-              src="/logos/pupilfirst-logo.svg"
-              className="h-20 w-full object-contain p-5 bg-white rounded-lg"
-              alt="pupilfirst"
-            />
-            <img
-              src="/logos/pupilfirst-logo.svg"
-              className="h-20 w-full object-contain p-5 bg-white rounded-lg"
-              alt="pupilfirst"
-            />
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="w-72 h-32 bg-white object-contain overflow-hidden p-6 rounded-lg flex items-center justify-center">
+              <img src="/logos/aicte-logo.png" alt="AICTE" className="h-full" />
+            </div>
+            <div className="w-72 h-32 bg-white object-contain overflow-hidden p-6 rounded-lg flex items-center justify-center">
+              <img src="/logos/micelio-logo.jpg" alt="Micelio" />
+            </div>
+            <div className="w-72 h-32 bg-white object-contain overflow-hidden p-6 rounded-lg flex items-center justify-center">
+              <img src="/logos/pupilfirst-logo.svg" alt="Pupilfirst" />
+            </div>
           </div>
         </SectionWithHeading>
         <SectionWithHeading heading="Two National Fellowships">
@@ -278,7 +267,7 @@ export default function () {
           </p>
         </SectionWithHeading>
         <SectionWithHeading heading="Who should apply?">
-          We're looking for engineers who is really passionate about authoring
+          We're looking for engineers who are really passionate about authoring
           EV course content and teaching these EV courses to students. You shall
           join a team of coaches and be responsible for dynamically keeping the
           National Model Curriculum up-to-date with industry standards.
@@ -292,8 +281,8 @@ export default function () {
           <ul className="list-none mt-8">
             <ListItem content="Should work in an EV related company during the last two years in a technical role." />
             <ListItem content="Should have work experience in battery design and good working knowledge with MATLAB, Scilab, Ansys. " />
-            <ListItem content="Should have experience working with battery management systems (working with Kalman Filter method of SOC estimation would be a bonus.)" />
-            <ListItem content="Having experience working with/in a college level motorsport team. (FSAE Supra, BAJA, etc…) will be a bonus." />
+            <ListItem content="Should have experience working with battery management systems (working with Kalman Filter method of SOC estimation would be a bonus)." />
+            <ListItem content="Having experience working with/in a college level motorsport team. (FSAE Supra, BAJA, etc.) will be a bonus." />
             <ListItem content="Should have prior experience in teaching technical skills (offline and/or online), such as conducting workshops, giving seminars, personal coaching, writing instructional articles, etc. are desirable." />
             <ListItem content="Should have interest and aptitude for creating high-quality technical course content, both textual and recorded videos." />
             <ListItem content="Should have the ability to simplify complex topics and be able to explain these topics using day to day examples." />
@@ -301,7 +290,7 @@ export default function () {
             <ListItem content="Should have access to a good internet connection." />
             <ListItem content="Should be comfortable working in a remote team environment." />
             <ListItem content="Should be comfortable working with the office tools we commonly use; Google Workspace, Discord, Trello." />
-            <ListItem content="Experience in Power electronics  is a bonus." />
+            <ListItem content="Experience in Power electronics is a bonus." />
           </ul>
         </SectionWithHeading>
         <SectionWithHeading heading="Key Responsibilities">
@@ -360,11 +349,11 @@ export default function () {
               content="LITE EV Teaching Fellowship Call"
             />
             <DateAndContent
-              date="October 24, 2022"
+              date="October 26, 2022"
               content="Last Date to Apply for EV Teaching Fellowships"
             />
             <DateAndContent
-              date="October 26, 2022"
+              date="October 28, 2022"
               content="Shortlisted Fellowship Candidates Announced"
             />
             <DateAndContent
@@ -402,7 +391,7 @@ export default function () {
               </svg>
             </div>
             <p className="text-lg">
-              <span className="font-semibold">24 October 2022:</span> The last
+              <span className="font-semibold">26 October 2022:</span> The last
               date to apply for LITE Industry Fellowships.
             </p>
           </div>

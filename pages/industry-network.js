@@ -39,7 +39,7 @@ export default function Page() {
             <div className="flex justify-between items-center">
               <img
                 className="block w-28 md:w-44"
-                src="logos/pupilfirst-logo.svg"
+                src="logos/pupilfirst-logo-ev.svg"
                 alt="Pupilfirst Logo"
               />
               <div>
@@ -138,9 +138,7 @@ export default function Page() {
                     <p className="text-secondary-500 font-semibold text-2xl">
                       EV 101
                     </p>
-                    <p>
-                      Beginner - Mathematical Modeling of an Electric Vehicle
-                    </p>
+                    <p>Mathematical Modeling of an Electric Vehicle</p>
                   </div>
                   <svg
                     width="16"
@@ -200,7 +198,7 @@ export default function Page() {
               />
               <DescriptionListItem
                 title="How long should the internship duration be?"
-                content="It’s flexible; four to six months is recommended."
+                content="It's flexible; four to six months is recommended."
               />
               <DescriptionListItem
                 title="What should be the internship stipend?"
@@ -294,8 +292,8 @@ export default function Page() {
           <div className="flex items-center gap-4 mt-5">
             <p className="font-semibold text-primary-500">1</p>
             <p className="flex-1 p-5 bg-gray-800 rounded-lg">
-              To work with your organization's HR team and engineering and
-              product leads and align with your hiring needs.
+              To work with your organization's HR team, engineering and product
+              leads, and align with your hiring needs.
             </p>
           </div>
           <div className="flex items-center gap-4 mt-5">
@@ -314,7 +312,7 @@ export default function Page() {
             />
             <DateAndContent
               date="November 07, 2022"
-              content=" Last Date to Apply"
+              content="Last Date to Apply"
             />
             <DateAndContent
               date="November 14, 2022"
@@ -341,10 +339,10 @@ export default function Page() {
             <p>
               If you have any questions, email us at{" "}
               <a
-                href="mailto:ev-hiring@pupilfirst.org"
+                href="mailto:hiring@pupilfirst.org"
                 className="text-secondary-500 underline hover:text-secondary-300"
               >
-                ev-hiring@pupilfirst.org
+                hiring@pupilfirst.org
               </a>
             </p>
           </div>
