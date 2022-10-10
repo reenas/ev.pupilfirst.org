@@ -81,14 +81,22 @@ export default function () {
               up-to-date with the latest in industry.
             </p>
             <p className="text-xl max-w-3xl text-primary-300 font-medium bg-gray-800 bg-opacity-50 text-center mt-6 py-4 px-6 rounded-lg border border-gray-700">
-              We are looking for EV professionals who are passionate about both
-              authoring courses and teaching these courses to students.
+              We are looking for EV professionals who are passionate about
+              both&nbsp;
+              <mark className="bg-green-300 font-bold text-gray-900">
+                &nbsp;authoring courses&nbsp;
+              </mark>
+              &nbsp;and{" "}
+              <mark className="bg-green-300 font-bold text-gray-900">
+                &nbsp;teaching&nbsp;
+              </mark>{" "}
+              these courses to students.
             </p>
             <p>
               <a
                 href="https://pupilfirst.typeform.com/to/Y6q6LScN"
                 target="_blank"
-                className="block bg-gradient-to-r from-secondary-500 to-primary-500 lg:text-xl py-3 px-10 mt-8 rounded-lg font-semibold text-black hover:brightness-110"
+                className="block text-center bg-gradient-to-br from-yellow-300 to-yellow-500 shadow-lg lg:text-xl py-3 px-10 mt-8 rounded-lg font-semibold text-black hover:shadow-2xl hover:from-yellow-200 hover:to-yellow-400 transition "
               >
                 Apply now
               </a>
@@ -138,7 +146,12 @@ export default function () {
               />
               <DescriptionListItem
                 title="When?"
-                content="November 11, 2022 to November 10, 2023 (tentative)"
+                content={
+                  <p>
+                    November 11, 2022 to November 10, 2023{" "}
+                    <span className="italic text-gray-300">(tentative)</span>
+                  </p>
+                }
               />
               <DescriptionListItem
                 title="Effort?"
@@ -159,7 +172,19 @@ export default function () {
               />
               <DescriptionListItem
                 title="Course delivery?"
-                content="The EV courses are taken by students completely asynchronously. Students go through the course content prepared by Industry experts, work on assignments and submit them for review, ask questions on forums when they have doubts, get feedback to improve their submission, and resubmit their work after incorporating the feedback"
+                content={
+                  <p>
+                    The EV courses are taken by students{" "}
+                    <span className="italic font-medium">
+                      completely asynchronously
+                    </span>
+                    . Students go through the course content prepared by
+                    Industry experts, work on assignments and submit them for
+                    review, ask questions on forums when they have doubts, get
+                    feedback to improve their submission, and resubmit their
+                    work after incorporating the feedback
+                  </p>
+                }
               />
               <DescriptionListItem
                 title="Part-time or full-time?"
@@ -227,7 +252,8 @@ export default function () {
                     <p className="p-4">
                       <a
                         href="https://pupilfirst.typeform.com/to/Y6q6LScN"
-                        className="block bg-gradient-to-r from-secondary-500 to-primary-500 py-3 px-8 text-center rounded-lg font-semibold text-black hover:brightness-110"
+                        target="_blank"
+                        className="block text-center bg-gradient-to-br from-yellow-300 to-yellow-500 shadow-lg py-3 px-8 mt-2 rounded-lg font-semibold text-black hover:shadow-2xl hover:from-yellow-200 hover:to-yellow-400 transition"
                       >
                         Apply now
                       </a>
@@ -274,9 +300,10 @@ export default function () {
         </SectionWithHeading>
         <SectionWithHeading heading="Requirements">
           <p>
-            We are looking for industry professionals with at least two years of
-            experience in the field of Electric Vehicles. Following are the
-            requirements for this position:
+            We are looking for industry professionals with{" "}
+            <span className="font-bold">at least two years</span> of experience
+            in the field of Electric Vehicles. Following are the requirements
+            for this position:
           </p>
           <ul className="list-none mt-8">
             <ListItem content="Should work in an EV related company during the last two years in a technical role." />
@@ -300,12 +327,12 @@ export default function () {
             evaluation and providing feedback for iterative course development
             processes.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 font-bold">
             Currently, we have{" "}
             <a
               href="https://www.pupilfirst.school/courses/641/curriculum"
               target="_blank"
-              className="text-blue-400 font-medium underline hover:text-blue-500 transition"
+              className="text-blue-400 font-bold underline hover:text-blue-500 transition"
             >
               EV101
             </a>{" "}
@@ -313,13 +340,32 @@ export default function () {
             <a
               href="https://www.pupilfirst.school/courses/643/curriculum"
               target="_blank"
-              className="text-blue-400 font-medium underline hover:text-blue-500 transition"
+              className="text-blue-400 font-bold underline hover:text-blue-500 transition"
             >
               EV201
             </a>{" "}
             courses that are being offered to students. We have planned to
             develop an advanced EV301 course.
           </p>
+          <div className="mt-8">
+            <h4 className="text-2xl text-primary-500">
+              Your primary responsibilities can be generally split into two
+              categories
+            </h4>
+            <ul className="list-decimal mt-4 ml-8 space-y-3">
+              <li>
+                <span className="font-bold">Course Authorship</span> - This will
+                be the majority of the work and will include writing scripts and
+                recording videos that would enable the upkeep of the EV National
+                model curriculum.
+              </li>
+              <li>
+                <span className="font-bold">Teaching</span> - This would involve
+                answering doubts in the online learning community, and reviewing
+                & grading assignments submitted by students.
+              </li>
+            </ul>
+          </div>
           <div className="mt-8">
             <h4 className="text-2xl text-primary-500">
               Other Key Responsibilities Include:
@@ -364,11 +410,11 @@ export default function () {
         </SectionWithHeading>
         <SectionWithHeading heading="Rolling Evaluations">
           <p>
-            All incoming applications are evaluated on a first-come, first-served
-            basis, and if there are enough qualified applicants, the application
-            process will close earlier. Therefore, we encourage you to apply
-            early if you are interested in being a part of this fellowship
-            program.
+            All incoming applications are evaluated on a first-come,
+            first-served basis, and if there are enough qualified applicants,
+            the application process will close earlier. Therefore, we encourage
+            you to apply early if you are interested in being a part of this
+            fellowship program.
           </p>
           <p className="mt-4">
             Once your application is shortlisted, we will reach out to you with
@@ -400,7 +446,8 @@ export default function () {
             <p>
               <a
                 href="https://pupilfirst.typeform.com/to/Y6q6LScN"
-                className="block bg-black py-3 px-8 rounded-lg font-semibold text-primary-500 hover:brightness-110"
+                target="_blank"
+                className="block bg-black py-3 px-8 shadow-lg lg:text-xl mt-8 rounded-lg font-semibold text-primary-500 hover:shadow-2xl hover:from-yellow-200 hover:to-yellow-400 transition"
               >
                 Apply Now for LITE EV Teaching Fellowship
               </a>
