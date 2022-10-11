@@ -57,17 +57,17 @@ export default function () {
               </div>
             </div>
           </header>
-          <div className="grid place-items-center pt-8 pb-20">
-            <p className="py-2 px-6 rounded-full bg-secondary-900 text-secondary-400">
+          <div className="grid md:place-items-center pt-8 pb-20">
+            <p className="p-2 md:py-2 md:px-6 rounded-lg md:rounded-full text-sm md:text-base bg-secondary-900 text-secondary-400">
               All India Council for Technical Education
             </p>
-            <p className="text-2xl mt-3">
+            <p className="text-base md:text-2xl mt-3">
               Leadership in Teaching Excellence (LITE)
             </p>
-            <h1 className="hero__title-gradient text-3xl lg:text-7xl 2xl:text-8xl leading-snug lg:leading-tight 2xl:leading-tight mt-3 bg-clip-text text-transparent bg-gradient-to-r from-secondary-500 to-primary-500">
+            <h1 className="hero__title-gradient text-5xl lg:text-7xl 2xl:text-8xl leading-snug lg:leading-tight 2xl:leading-tight mt-3 bg-clip-text text-transparent bg-gradient-to-r from-secondary-500 to-primary-500">
               EV Teaching Fellowships
             </h1>
-            <p className="text-lg lg:text-xl 2xl:text-2xl max-w-3xl 2xl:max-w-5xl sm:text-center mt-6 px-4">
+            <p className="text-base lg:text-xl 2xl:text-2xl max-w-3xl 2xl:max-w-5xl sm:text-center mt-2 md:mt-6 md:px-4">
               AICTE LITE EV Teaching Fellowships is a national fellowship for
               experienced electric vehicle engineers who are interested in
               contributing time for teaching and keeping the{" "}
@@ -80,18 +80,20 @@ export default function () {
               </a>{" "}
               up-to-date with the latest in industry.
             </p>
-            <p className="text-xl max-w-3xl text-primary-300 font-medium bg-gray-800 bg-opacity-50 text-center mt-6 py-4 px-6 rounded-lg border border-gray-700">
-              We are looking for EV professionals who are passionate about
-              both&nbsp;
-              <mark className="bg-green-300 font-bold text-gray-900">
-                &nbsp;authoring courses&nbsp;
-              </mark>
-              &nbsp;and{" "}
-              <mark className="bg-green-300 font-bold text-gray-900">
-                &nbsp;teaching&nbsp;
-              </mark>{" "}
-              these courses to students.
-            </p>
+            <div className="animated-gradient-wrapper p-1 mt-6 md:mt-8 rounded-lg">
+              <p className="md:text-xl max-w-3xl text-primary-300 font-medium bg-gray-900 text-center p-3 md:py-4 md:px-6 rounded-lg relative z-0">
+                We are looking for EV professionals who are passionate about
+                both&nbsp;
+                <mark className="bg-green-300 font-bold text-gray-900">
+                  &nbsp;authoring courses&nbsp;
+                </mark>
+                &nbsp;and{" "}
+                <mark className="bg-green-300 font-bold text-gray-900">
+                  &nbsp;teaching&nbsp;
+                </mark>{" "}
+                these courses to students.
+              </p>
+            </div>
             <p>
               <a
                 href="https://pupilfirst.typeform.com/to/Y6q6LScN"
@@ -101,23 +103,31 @@ export default function () {
                 Apply now
               </a>
             </p>
-            <div className="bg-gray-800 flex flex-col items-center mt-24 rounded-xl">
+            <div className="bg-gray-800 flex flex-col items-center mt-12 md:mt-24 rounded-xl">
               <p className="bg-gray-700 font-semibold px-4 py-3 rounded-b-md">
                 Supported by
               </p>
-              <div className="flex flex-wrap gap-6 p-12 justify-center">
-                <div className="w-72 h-32 bg-white object-contain overflow-hidden p-6 rounded-lg flex items-center justify-center">
+              <div className="grid md:grid-cols-3 gap-4 md:gap-6 p-4 md:p-12 justify-center">
+                <div className="w-full h-24 bg-white object-contain overflow-hidden p-3 md:p-6 rounded-lg flex items-center justify-center">
                   <img
                     src="/logos/aicte-logo.png"
                     alt="AICTE"
-                    className="h-full"
+                    className="h-16"
                   />
                 </div>
-                <div className="w-72 h-32 bg-white object-contain overflow-hidden p-6 rounded-lg flex items-center justify-center">
-                  <img src="/logos/micelio-logo.jpg" alt="Micelio" />
+                <div className="w-full h-24 bg-white object-contain overflow-hidden p-3 md:p-6 rounded-lg flex items-center justify-center">
+                  <img
+                    className="h-16"
+                    src="/logos/micelio-logo.jpg"
+                    alt="Micelio"
+                  />
                 </div>
-                <div className="w-72 h-32 bg-white object-contain overflow-hidden p-6 rounded-lg flex items-center justify-center">
-                  <img src="/logos/pupilfirst-logo.svg" alt="Pupilfirst" />
+                <div className="w-full h-24 bg-white object-contain overflow-hidden p-3 md:p-6 rounded-lg flex items-center justify-center">
+                  <img
+                    className="h-10"
+                    src="/logos/pupilfirst-logo.svg"
+                    alt="Pupilfirst"
+                  />
                 </div>
               </div>
             </div>
@@ -441,13 +451,30 @@ export default function () {
               date to apply for LITE EV Teaching Fellowships.
             </p>
           </div>
-          <div className="mt-10 bg-gradient-to-r from-secondary-500 to-primary-500 px-6 py-6 flex items-center justify-between rounded-lg text-black">
-            <h3>Become a Teaching Fellow</h3>
+          <div className="mt-10 bg-gradient-to-r from-secondary-500 to-primary-500 px-6 py-6 space-y-6 md:space-y-0 flex flex-col md:flex-row items-center justify-between rounded-lg text-black">
+            <h3 className="flex items-center space-x-3 text-center text-primary-100 md:text-left leading-tight">
+              Become a Teaching Fellow
+              <span>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="16"
+                  height="16"
+                  fill="currentColor"
+                  class="w-8 h-8"
+                  viewBox="0 0 16 16"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"
+                  />
+                </svg>
+              </span>
+            </h3>
             <p>
               <a
                 href="https://pupilfirst.typeform.com/to/Y6q6LScN"
                 target="_blank"
-                className="block bg-black py-3 px-8 shadow-lg lg:text-xl mt-8 rounded-lg font-semibold text-primary-500 hover:shadow-2xl hover:from-yellow-200 hover:to-yellow-400 transition"
+                className="block text-center bg-gradient-to-br from-yellow-300 to-yellow-500 py-3 px-8 shadow-lg lg:text-xl rounded-lg font-semibold text-black hover:shadow-2xl hover:from-yellow-200 hover:to-yellow-400 transition"
               >
                 Apply Now for LITE EV Teaching Fellowship
               </a>

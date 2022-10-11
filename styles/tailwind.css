@@ -105,11 +105,14 @@ h4 {
 	@apply relative;
 }
 
+
+@screen md{
 .heading-with-underscore::before {
-	@apply absolute bg-primary-200	 h-0.5 w-4;
-	content: "";
-	bottom: 14px;
-	left: -32px;
+		@apply absolute bg-primary-200 h-0.5 w-4;
+		content: "";
+		bottom: 14px;
+		left: -32px;
+	}
 }
 
 @screen lg {
@@ -143,5 +146,24 @@ h4 {
 	.ama-section__corner-image {
 		right: -50px;
 		top: -30px;
+	}
+}
+
+
+
+.animated-gradient-wrapper {
+	@apply flex justify-center items-center;
+	animation: gradient 2s ease alternate infinite;
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab) no-repeat;
+	background-size: 300% 300%;
+}
+
+@keyframes gradient {
+	from {
+		background-position: 0% 50%;
+	}
+
+	to {
+		background-position: 100% 50%;
 	}
 }
