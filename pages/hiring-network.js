@@ -240,7 +240,8 @@ export default function Page() {
                     </div>
                     <p className="p-4">
                       <a
-                        href="#"
+                        href="https://form.typeform.com/to/YR6f2TyD"
+                        target="_blank"
                         className="block bg-gradient-to-r from-secondary-500 to-primary-500 py-3 px-8 text-center rounded-lg font-semibold text-black hover:brightness-110"
                       >
                         Join as an early adopter
@@ -262,6 +263,63 @@ export default function Page() {
         >
           <BeginnerToAdvanceJourney />
         </SectionWithHeading>
+        <SectionWithHeading heading={<p>Student Testimonial</p>}>
+          <div className="w-full">
+            <div className="relative">
+              <p>
+                <span className="text-primary-500">Watch the video</span> to get
+                a glimpse of what the students learn throughout the courses.
+              </p>
+              <div className="hidden md:block h-5 w-5 absolute top-4 -left-4 transform rotate-12 z-10">
+                <svg
+                  version="1.1"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  x="0px"
+                  y="0px"
+                  viewBox="0 0 43.1 85.9"
+                  xmlSpace="preserve"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="st0 draw-arrow__svg-path"
+                    d="M11.3,2.5c-5.8,5-8.7,12.7-9,20.3s2,15.1,5.3,22c6.7,14,18,25.8,31.7,33.1"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="draw-arrow__svg-path"
+                    d="M40.6,78.1C39,71.3,37.2,64.6,35.2,58"
+                  />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    className="draw-arrow__svg-path"
+                    d="M39.8,78.5c-7.2,1.7-14.3,3.3-21.5,4.9"
+                  />
+                </svg>
+              </div>
+            </div>
+            <div style={{ padding: "52.73% 0 0 0", position: "relative" }}>
+              <iframe
+                src="https://player.vimeo.com/video/773742620?h=0e342e0ea2&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+                frameBorder="0"
+                allow="autoplay; fullscreen; picture-in-picture"
+                allowFullScreen
+                style={{
+                  position: "absolute",
+                  top: 0,
+                  left: 0,
+                  width: "100%",
+                  height: "100%",
+                }}
+                className="rounded-md md:rounded-xl shadow-2xl mt-8"
+                title="EV Courses - Student Testimonial"
+              ></iframe>
+            </div>
+          </div>
+        </SectionWithHeading>
         <SectionWithHeading
           heading={
             <p>
@@ -274,9 +332,6 @@ export default function Page() {
             providing internships or hiring opportunities. Instead, we encourage
             independent evaluation to assess student performance.
           </p>
-          <div className="mt-12 h-96 bg-gray-800 grid place-items-center rounded-xl">
-            <p>Video</p>
-          </div>
         </SectionWithHeading>
         <SectionWithHeading
           heading={
@@ -289,16 +344,20 @@ export default function Page() {
             In exchange for accessing this pipeline of trained talent, we
             expect:
           </p>
-          <div className="flex items-center gap-4 mt-5">
-            <p className="font-semibold text-primary-500">1</p>
-            <p className="flex-1 p-5 bg-gray-800 rounded-lg">
+          <div className="grid grid-cols-12 items-center gap-4 mt-5">
+            <p className="col-span-1 text-center font-semibold md:text-3xl text-primary-500">
+              1
+            </p>
+            <p className="col-span-11 flex-1 p-5 max-w-3xl bg-gray-800 rounded-lg">
               To work with your organization's HR team, engineering and product
               leads, and align with your hiring needs.
             </p>
           </div>
-          <div className="flex items-center gap-4 mt-5">
-            <p className="font-semibold text-primary-500">2</p>
-            <p className="flex-1 p-5 bg-gray-800 rounded-lg">
+          <div className="grid grid-cols-12 items-center gap-4 mt-5">
+            <p className="col-span-1 text-center font-semibold md:text-3xl text-primary-500">
+              2
+            </p>
+            <p className="col-span-11 flex-1 p-5 max-w-3xl bg-gray-800 rounded-lg">
               To place your logo on the Course Website for students to be aware
               of internship/hiring opportunities at your organization.
             </p>
@@ -327,7 +386,8 @@ export default function Page() {
             </p>
             <p>
               <a
-                href="#"
+                href="https://form.typeform.com/to/YR6f2TyD"
+                target="_blank"
                 className="block bg-black py-3 px-8 mt-8 rounded-lg font-semibold text-primary-500 hover:brightness-110"
               >
                 Join as an early adopter

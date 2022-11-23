@@ -10,7 +10,7 @@ export default function SectionWithHeading({ children, heading }) {
             {heading}
           </h2>
         </div>
-        <div className="md:pr-12 pt-4 md:pt-10 lg:ml-24 2xl:ml-44 pl-4 lg:text-xl 2xl:text-xl">
+        <div className="md:pr-12 pt-4 lg:ml-24 2xl:ml-44 pl-4 lg:text-xl 2xl:text-xl">
           {children}
         </div>
       </div>
