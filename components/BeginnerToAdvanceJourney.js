@@ -73,12 +73,12 @@ export default function BeginnerToAdvanceJourney() {
               </div>
             </div>
             <div className="flex-1">
-              <div className="flex flex-col h-2/5 space-y-4 pb-5">
+              <div className="flex flex-col h-2/5 space-y-2 pb-5">
                 <div className="flex flex-1">
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
                     1
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                     <p className="text-sm md:text-base font-semibold text-secondary-400">
                       Fundamentals of electric vehicles.
                     </p>
@@ -88,7 +88,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
                     2
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                     <p className="text-sm md:text-base font-semibold text-secondary-400">
                       Drive Cycles &amp; calculating energy consumption.
                     </p>
@@ -98,7 +98,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
                     3
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                     <p className="text-sm md:text-base font-semibold text-secondary-400">
                       Mathematical modeling for an EV conversion.
                     </p>
@@ -108,7 +108,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-secondary-400">
                     4
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-secondary-900 bg-opacity-25 border border-secondary-400">
                     <p className="text-sm md:text-base font-semibold text-secondary-400">
                       Basic battery architecture for EVs.
                     </p>
@@ -116,12 +116,12 @@ export default function BeginnerToAdvanceJourney() {
                 </div>
               </div>
 
-              <div className="flex flex-col h-3/5 space-y-4 pt-5">
+              <div className="flex flex-col h-3/5 space-y-2 pt-5">
                 <div className="flex flex-1">
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
                     1
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
                       Building and visualizing a 3 pole brushless DC motor.
                     </p>
@@ -131,7 +131,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
                     2
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
                       Motor control for BLDC motors.
                     </p>
@@ -141,7 +141,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
                     3
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
                       Basics of Lithium-ion batteries and designing battery
                       packs.
@@ -152,7 +152,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
                     4
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
                       Battery managements systems for EVs.
                     </p>
@@ -162,7 +162,7 @@ export default function BeginnerToAdvanceJourney() {
                   <p className="w-4 md:w-8 flex items-center text-base md:text-xl font-semibold text-primary-400">
                     5
                   </p>
-                  <div className="flex-1 p-3 md:p-4 lg:px-4 md:py-6 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
+                  <div className="flex-1 px-3 py-2 rounded-lg bg-primary-900 bg-opacity-25 border border-primary-400">
                     <p className="text-sm md:text-base font-semibold text-primary-400">
                       Communication protocols &amp; electronic noise.
                     </p>
