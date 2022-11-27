@@ -81,7 +81,7 @@ export default function Page() {
                 Join as an early adopter
               </a>
             </p>
-            <div className="bg-gray-800 flex flex-col items-center mt-24 rounded-xl">
+            {/* <div className="bg-gray-800 flex flex-col items-center mt-24 rounded-xl">
               <p className="bg-gray-700 font-semibold px-4 py-3 rounded-b-md">
                 Supported by
               </p>
@@ -100,7 +100,7 @@ export default function Page() {
                   <img src="/logos/pupilfirst-logo.svg" alt="Pupilfirst" />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </SectionContainer>
         <SectionWithHeading
