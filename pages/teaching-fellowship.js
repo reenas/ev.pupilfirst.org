@@ -299,7 +299,7 @@ export default function () {
             </div>
           </div>
         </SectionWithHeading>
-        <SectionWithHeading
+        {/* <SectionWithHeading
           heading={
             <p>
               An initiative <br /> supported by
@@ -317,7 +317,7 @@ export default function () {
               <img src="/logos/pupilfirst-logo.svg" alt="Pupilfirst" />
             </div>
           </div>
-        </SectionWithHeading>
+        </SectionWithHeading> */}
         <SectionWithHeading heading="Two National Fellowships">
           <p>
             This fellowship program is created jointly by the All India Council
