@@ -103,7 +103,7 @@ export default function () {
                 Apply now
               </a>
             </p>
-            <div className="bg-gray-800 flex flex-col items-center mt-12 md:mt-24 rounded-xl">
+            {/* <div className="bg-gray-800 flex flex-col items-center mt-12 md:mt-24 rounded-xl">
               <p className="bg-gray-700 font-semibold px-4 py-3 rounded-b-md">
                 Supported by
               </p>
@@ -130,7 +130,7 @@ export default function () {
                   />
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </SectionContainer>
         <SectionWithHeading
