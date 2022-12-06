@@ -75,7 +75,8 @@ export default function Page() {
             </p>
             <p>
               <a
-                href="#"
+                href="https://pupilfirst.typeform.com/to/YR6f2TyD"
+                target="_blank"
                 className="block bg-gradient-to-r from-secondary-500 to-primary-500 py-3 px-8 mt-8 rounded-lg font-semibold text-black hover:brightness-110"
               >
                 Join as an early adopter
@@ -240,7 +241,7 @@ export default function Page() {
                     </div>
                     <p className="p-4">
                       <a
-                        href="https://form.typeform.com/to/YR6f2TyD"
+                        href="https://pupilfirst.typeform.com/to/YR6f2TyD"
                         target="_blank"
                         className="block bg-gradient-to-r from-secondary-500 to-primary-500 py-3 px-8 text-center rounded-lg font-semibold text-black hover:brightness-110"
                       >
@@ -386,7 +387,7 @@ export default function Page() {
             </p>
             <p>
               <a
-                href="https://form.typeform.com/to/YR6f2TyD"
+                href="https://pupilfirst.typeform.com/to/YR6f2TyD"
                 target="_blank"
                 className="block bg-black py-3 px-8 mt-8 rounded-lg font-semibold text-primary-500 hover:brightness-110"
               >
