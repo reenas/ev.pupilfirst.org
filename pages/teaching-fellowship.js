@@ -243,28 +243,18 @@ export default function () {
                     </p>
                     <div className="text-xs md:text-sm mt-2 divide-y divide-gray-700">
                       <DateAndContent
-                        date="October 17, 2022"
+                        date="December 12, 2022"
                         content="LITE EV Teaching Fellowships Call"
                       />
                       <DateAndContent
-                        date={
-                          <span>
-                            <span className="block text-sm text-gray-400 line-through">
-                              November 09
-                            </span>
-                            January 03, 2023
-                          </span>
-                        }
+                        date={<span>January 03, 2023</span>}
                         content="Last Date to Apply for EV Teaching Fellowship"
                       />
                       <DateAndContent
                         date={
                           <span>
-                            <span className="block text-sm text-gray-400 line-through">
-                              November 17
-                            </span>
                             <span className="italic text-gray-100">
-                              To be finalized
+                              To be announced
                             </span>
                           </span>
                         }
@@ -273,11 +263,8 @@ export default function () {
                       <DateAndContent
                         date={
                           <span>
-                            <span className="block text-sm text-gray-400 line-through">
-                              November 24
-                            </span>
                             <span className="italic text-gray-100">
-                              To be finalized
+                              To be announced
                             </span>
                           </span>
                         }
@@ -426,28 +413,18 @@ export default function () {
         <SectionWithHeading heading="Schedule">
           <div className="bg-gray-800 border border-gray-700 rounded-lg divide-y divide-gray-700">
             <DateAndContent
-              date="October 17, 2022"
+              date="December 12, 2022"
               content="LITE EV Teaching Fellowships Call"
             />
             <DateAndContent
-              date={
-                <span>
-                  <span className="block text-lg text-gray-400 line-through">
-                    November 09
-                  </span>
-                  January 03, 2023
-                </span>
-              }
+              date={<span>January 03, 2023</span>}
               content="Last Date to Apply for EV Teaching Fellowship"
             />
             <DateAndContent
               date={
                 <span>
-                  <span className="block text-sm md:text-lg text-gray-400 line-through">
-                    November 17
-                  </span>
                   <span className="italic text-gray-100 leading-tight">
-                    To be finalized
+                    To be announced
                   </span>
                 </span>
               }
@@ -456,11 +433,8 @@ export default function () {
             <DateAndContent
               date={
                 <span>
-                  <span className="block text-sm md:text-lg text-gray-400 line-through">
-                    November 24
-                  </span>
                   <span className="italic text-gray-100 leading-tight">
-                    To be finalized
+                    To be announced
                   </span>
                 </span>
               }
