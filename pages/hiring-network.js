@@ -403,7 +403,7 @@ export default function Page() {
                 href="mailto:ev-hiring@pupilfirst.org"
                 className="text-secondary-500 underline hover:text-secondary-300"
               >
-                hiring@pupilfirst.org
+                ev-hiring@pupilfirst.org
               </a>
             </p>
           </div>
