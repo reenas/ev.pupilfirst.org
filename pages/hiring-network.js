@@ -69,9 +69,16 @@ export default function Page() {
             <p className="text-lg lg:text-xl 2xl:text-2xl max-w-3xl 2xl:max-w-5xl sm:text-center mt-6 px-4">
               Would you like to be an early adopter to hire student EV engineers
               trained in a curriculum developed by practicing industry
-              professionals and approved as the National Model Curriculum for
-              Electric Vehicle Technology by the “All India Council for
-              Technical Education (AICTE)”?
+              professionals and approved as the{" "}
+              <a
+                className="underline text-primary-400"
+                href="https://www.aicte-india.org/sites/default/files/Model_Curriculum/fINAL%20-%20NEP%202020%20Model%20Syllabus%20for%20Open%20Electives%20in%20Electric%20Vehicles.pdf"
+                target="blank"
+              >
+                National Model Curriculum
+              </a>
+              &nbsp;for Electric Vehicle Technology by the “All India Council
+              for Technical Education (AICTE)”?
             </p>
             <p>
               <a
